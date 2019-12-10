@@ -2,6 +2,8 @@
 
 Chemistry Lab VR project using the Unity game engine and the Windows Mixed Reality Toolkit.
 
+Please link refrences to websites or tutorials that you deem important in the refrences section below.
+
 ## How to Run
 
 Prerequisites:
@@ -14,12 +16,6 @@ Prerequisites:
 2. In `Edit > Project Settings > Player` check `Virtual Reality Supported` & add the `Windows Mixed Reality` SDK.
 3. In `Edit > Project Settings > Audio` select `MS HRTF Spatializer` as the spatializer plugin.
 4. Use the play button in the Unity editor.
-
-## Creating an Experiment
-
-Please use a copy of `Assets/Scenes/Base.unity` when creating a new experiment. This scene already has the mixed reality toolkit setup and includes the pointer interaction, player movement & grabbing. The scene also has a basic ground plane and four walls, these can be removed if desired.
-
-Please link refrences to websites or tutorials that you deem important in the refrences section below.
 
 ## References
 
