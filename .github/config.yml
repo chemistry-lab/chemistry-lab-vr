@@ -1,8 +1,8 @@
 # For Request Info Bot https://github.com/behaviorbot/request-info
 # *Required* Comment to reply with
 requestInfoReplyComment: >
-  I would appreciate it if you could provide me with more info about this issue/pr!
-  Please do not leave the `title` or `description` empty.
+  We would appreciate it if you could provide us with more info about this issue/pr!
+  Please do not leave the `title` or `description` empty and follow the issue template.
 # *OPTIONAL* default titles to check against for lack of descriptiveness
 # MUST BE ALL LOWERCASE
 requestInfoDefaultTitles:
@@ -10,4 +10,4 @@ requestInfoDefaultTitles:
   - updates
 
 # *OPTIONAL* Label to be added to Issues and Pull Requests with insufficient information given
-requestInfoLabelToAdd: "need:more-info"
+requestInfoLabelToAdd: "need-more-info"
