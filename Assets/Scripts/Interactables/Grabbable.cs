@@ -16,6 +16,7 @@ namespace Interactables
         [SerializeField] private float throwableMultiplier = 2.0f;
 
         private Rigidbody rigidBody = null;
+        private int grabbableLayer = 9;
         private int defaultLayer = 0;
 
         private void Awake()
@@ -28,7 +29,7 @@ namespace Interactables
 
         public void OnPickup()
         {
-            gameObject.layer = 8;
+            gameObject.layer = grabbableLayer;
         }
 
         public void OnDrop()
