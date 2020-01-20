@@ -42,12 +42,6 @@ namespace Atom.Interaction
             if (!grabbable) Debug.LogWarning("No Grabbable Component Provided!");
         }
 
-        private void Update()
-        {
-            Vector3 direction = transform.forward * 10;
-            Debug.DrawRay(transform.position, direction, Color.green);
-        }
-
         public void OnInputUp(InputEventData eventData) { }
 
         public void OnInputDown(InputEventData eventData)

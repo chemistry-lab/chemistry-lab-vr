@@ -10,7 +10,7 @@ namespace Utilities
     [System.Serializable]
     public class UnityScene
     {
-        [SerializeField] private Object sceneAsset;
+        [SerializeField] private Object sceneAsset = null;
         [SerializeField] private string sceneName = "";
 
         public string SceneName

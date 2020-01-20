@@ -17591,11 +17591,12 @@ PrefabInstance:
         type: 3}
       propertyPath: scene.sceneAsset
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 102900000, guid: 15b328bdcc3a66541a8aca1687fb01cf,
+        type: 3}
     - target: {fileID: 4511374257169894636, guid: e79af0b0ba98618428d341c2bbc8aebf,
         type: 3}
       propertyPath: scene.sceneName
-      value: Scenes/Menu/ScenarioOne
+      value: Scenes/Lake/Lake
       objectReference: {fileID: 0}
     - target: {fileID: 4511374257169894636, guid: e79af0b0ba98618428d341c2bbc8aebf,
         type: 3}
