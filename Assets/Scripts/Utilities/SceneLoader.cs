@@ -31,7 +31,15 @@ namespace Utilities
         {
             if (!isStarted)
             {
-                StartCoroutine(FadeOut(scene));
+                StartCoroutine(FadeOut(scene, 0.0f));
+            }
+        }
+
+        public void LoadScene(UnityScene scene, float timeout)
+        {
+            if (!isStarted)
+            {
+                StartCoroutine(FadeOut(scene, timeout));
             }
         }
 
@@ -46,9 +54,11 @@ namespace Utilities
             panel.material.color = new Color(0, 0, 0, 0);
         }
 
-        private IEnumerator FadeOut(UnityScene scene)
+        private IEnumerator FadeOut(UnityScene scene, float timeout)
         {
             isStarted = true;
+
+            yield return new WaitForSeconds(timeout);
             for (float t = 0.0f; t < 1; t += Time.deltaTime / fadeOutTime)
             {
                 panel.material.color = new Color(0, 0, 0, Mathf.Lerp(0, 1, t));

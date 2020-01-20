@@ -5,42 +5,38 @@ namespace Utilities
     [RequireComponent(typeof(ParticleSystem))]
     public class ParticleManager : MonoBehaviour
     {
+        [SerializeField] private float lifeTime = 0.0f;
 
-        private ParticleSystem ParticleSystem;
-
-        public float LifeTime;
-        private float lifeCounter;
-        private bool active = false;
+        private ParticleSystem system = null;
+        private bool isActive = false;
+        private float counter = 0;
 
         void Update()
         {
-            if (active)
+            if (isActive)
             {
-                lifeCounter = Mathf.Max(lifeCounter - Time.deltaTime, 0);
-                if (lifeCounter == 0)
-                {
-                    Deactivate();
-                }
+                counter = Mathf.Max(counter - Time.deltaTime, 0);
+                if (counter == 0) Deactivate();
             }
         }
         private void Awake()
         {
-            ParticleSystem = GetComponent<ParticleSystem>();
-            ParticleSystem.Stop();
+            system = GetComponent<ParticleSystem>();
+            system.Stop();
         }
 
         public void Activate()
         {
-            lifeCounter = LifeTime;
-            active = true;
-            ParticleSystem.Play();
+            counter = lifeTime;
+            isActive = true;
+            system.Play();
         }
 
         public void Deactivate()
         {
-            lifeCounter = 0;
-            active = false;
-            ParticleSystem.Stop();
+            counter = 0;
+            isActive = false;
+            system.Stop();
         }
     }
 }

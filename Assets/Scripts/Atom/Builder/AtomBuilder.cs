@@ -3,7 +3,7 @@
 using UnityEngine;
 using TMPro;
 
-using Atom.Visualization;
+using Atom.Pack;
 using Atom.Enum;
 
 namespace Atom.Builder
@@ -11,14 +11,13 @@ namespace Atom.Builder
     public class AtomBuilder : MonoBehaviour
     {
         [Header("Atoms")]
-        [SerializeField] private List<Pack> atoms = new List<Pack>();
-        [Space]
+        [SerializeField] private List<AtomPack> atoms = new List<AtomPack>();
 
+        [Header("Visualization")]
         [SerializeField] private TextMeshPro protonsLabel = null;
         [SerializeField] private TextMeshPro neutronsLabel = null;
         [SerializeField] private TextMeshPro electronsLabel = null;
         [SerializeField] private Visualization.Atom visualization = null;
-        [Space]
 
         [Header("Validation")]
         [SerializeField] private Renderer validationLight = null;
@@ -28,7 +27,7 @@ namespace Atom.Builder
         private List<AtomPart> contents = new List<AtomPart>();
         private Color invalidColor = new Color(0, 0, 0, 0.7f);
         private Color validColor = Color.white;
-        private Pack current = null;
+        private AtomPack current = null;
 
         private void Awake()
         {
@@ -136,7 +135,7 @@ namespace Atom.Builder
         {
             if (atomPreview == null || validationLight == null || spawnPoint == null) return;
 
-            foreach (Pack atom in atoms)
+            foreach (AtomPack atom in atoms)
             {
                 if (atom.Neutrons == GetCount(AtomPart.Neutron) && atom.Protons == GetCount(AtomPart.Proton) && atom.Electrons == GetCount(AtomPart.Electron))
                 {

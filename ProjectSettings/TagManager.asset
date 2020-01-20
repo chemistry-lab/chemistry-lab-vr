@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Interactable
   - Grabbable
+  - Proton
+  - Neutron
+  - Electron
+  - Undo
   layers:
   - Default
   - TransparentFX

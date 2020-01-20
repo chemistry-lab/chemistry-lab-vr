@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Unity Editor",
+      "type": "unity",
+      "path": "/c:/Users/Tom de Wildt/Development/Proftaak/Semester-7/chemistry-lab-vr/Library/EditorInstance.json",
+      "request": "launch"
+    }
+  ]
+}

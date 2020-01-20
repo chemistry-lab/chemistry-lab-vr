@@ -575,7 +575,7 @@ GameObject:
   - component: {fileID: 4711994200330177928}
   - component: {fileID: 516964137251752340}
   - component: {fileID: 4444728949192222979}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
