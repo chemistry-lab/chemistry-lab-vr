@@ -86,11 +86,11 @@ namespace Atom.Builder
             Validate();
         }
 
-        public bool CreateAtom()
+        public bool CreateAtom(Vector3 spawnPos)
         {
             if (current == null) return false;
 
-            Instantiate(current.gameObject, spawnPoint.position, Quaternion.identity);
+            Instantiate(current.gameObject, spawnPos, Quaternion.identity);
 
             return true;
         }
