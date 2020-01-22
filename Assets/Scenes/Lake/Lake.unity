@@ -8103,6 +8103,82 @@ Terrain:
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
   m_AllowAutoConnect: 1
+--- !u!1 &1805362000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1805362001}
+  - component: {fileID: 1805362002}
+  - component: {fileID: 1805362003}
+  m_Layer: 0
+  m_Name: Endgoal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1805362001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805362000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 28.814, y: 28.814, z: 28.814}
+  m_Children: []
+  m_Father: {fileID: 1661396124}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1805362002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805362000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f02a41a960ea66a40b9f2febdd513a9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correct: {fileID: 4637493530583022498, guid: 2991a047d5d4ede418ec013e204ac8d6, type: 3}
+  dirtyParticles:
+  - {fileID: 1216492613}
+  dirtyObjects:
+  - {fileID: 1577555399}
+  - {fileID: 419935617}
+  - {fileID: 140472673}
+  - {fileID: 235786991}
+  dirtyWater:
+  - {fileID: 1609011492}
+  - {fileID: 333887254}
+  - {fileID: 17071781}
+  cleanWater: {fileID: 2800000, guid: ff446bc77aa02744994aadf429d7f00e, type: 3}
+  fadeTimer: 3
+  loader: {fileID: 481996498}
+  scene:
+    sceneAsset: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+    sceneName: Scenes/Main
+  timeout: 5
+--- !u!65 &1805362003
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805362000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.163797, y: 0.48306224, z: 1.1290953}
+  m_Center: {x: -0.009894198, y: -0.25846827, z: 0.064548135}
 --- !u!1 &1945950864
 GameObject:
   m_ObjectHideFlags: 0
