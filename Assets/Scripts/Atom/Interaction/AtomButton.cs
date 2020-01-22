@@ -18,7 +18,7 @@ namespace Atom
 
         private void OnTriggerEnter(Collider other)
         {
-            //builder.ResetAtom();
+            builder.ResetAtom();
             button.material.SetFloat("_OutlineWidth", thickness);
         }
 
