@@ -818,6 +818,106 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 187531885}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &277338993
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6453992562761260732, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_Name
+      value: LakeContextSign (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26.387
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163920252958698627, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.922
+      objectReference: {fileID: 0}
+    - target: {fileID: 163920252958698627, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.474
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318616650330772580, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_Text
+      value: "Pak de plastic flessen en \nneem deze mee naar het \ngrote gebouw rechts
+        van hier."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318616650330772580, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_FontSize
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318616650330772580, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_Anchor
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318616650330772580, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_Alignment
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b2d62458279215243a9bc63ff8d65643, type: 3}
 --- !u!1001 &331050051
 PrefabInstance:
   m_ObjectHideFlags: 0
