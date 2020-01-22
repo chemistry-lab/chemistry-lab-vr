@@ -159,28 +159,8 @@ namespace Atom.Builder
 
         public void ResetAtom()
         {
-            int amountOfElectron = GetCount(AtomPart.Electron);
-            int amountOfProton = GetCount(AtomPart.Electron);
-            int amountOfNeutron = GetCount(AtomPart.Electron);
-            StartCoroutine(SubtractAllAtomicParts(amountOfElectron, amountOfProton, amountOfNeutron));
-        }
-
-        private IEnumerator SubtractAllAtomicParts(int electrons, int protons, int neutrons)
-        {
-            for (int i = 0; i < electrons; i++)
-            {
-                SubtractElectron();
-            }
-            for (int i = 0; i < protons; i++)
-            {
-                SubtractProton();
-            }
-            for (int i = 0; i < neutrons; i++)
-            { 
-                SubtractNeutron();
-            }
-
-            return null;
+            contents.Clear();
+            visualization.Reset();
         }
     }
 }
