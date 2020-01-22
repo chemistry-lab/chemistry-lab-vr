@@ -1,5 +1,38 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!54 &35386493782230373
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142003694322765816}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &875675022556303987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142003694322765816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0df57f68e2a445f45bb71dcadd3a3243, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    id: 4
+    description: Trigger Press
+    axisConstraint: 2
+  atomBuilder: {fileID: 8505388558525959654}
 --- !u!1 &1431470998849563509
 GameObject:
   m_ObjectHideFlags: 0
@@ -24,7 +57,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431470998849563509}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.2, z: 0.75}
+  m_LocalPosition: {x: 0, y: 1.4, z: -0.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8516071475598977839}
@@ -793,10 +826,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8516071475598977839}
     m_Modifications:
-    - target: {fileID: 132818, guid: 50f77966e02d5164681d1cf303696577, type: 3}
-      propertyPath: m_Name
-      value: Light1
-      objectReference: {fileID: 0}
     - target: {fileID: 498026, guid: 50f77966e02d5164681d1cf303696577, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -853,6 +882,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.6
       objectReference: {fileID: 0}
+    - target: {fileID: 132818, guid: 50f77966e02d5164681d1cf303696577, type: 3}
+      propertyPath: m_Name
+      value: Light1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50f77966e02d5164681d1cf303696577, type: 3}
 --- !u!23 &171515907308758639 stripped
@@ -874,14 +907,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3167366195311609171}
     m_Modifications:
-    - target: {fileID: 1477564253892410, guid: 8b1fc8f56ae45b44a91ace88f0db210c, type: 3}
-      propertyPath: m_Name
-      value: Barrel_02_snaps002 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1477564253892410, guid: 8b1fc8f56ae45b44a91ace88f0db210c, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4127722668221838, guid: 8b1fc8f56ae45b44a91ace88f0db210c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -938,6 +963,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.75
       objectReference: {fileID: 0}
+    - target: {fileID: 1477564253892410, guid: 8b1fc8f56ae45b44a91ace88f0db210c, type: 3}
+      propertyPath: m_Name
+      value: Barrel_02_snaps002 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477564253892410, guid: 8b1fc8f56ae45b44a91ace88f0db210c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b1fc8f56ae45b44a91ace88f0db210c, type: 3}
 --- !u!4 &766824812712902706 stripped
@@ -953,11 +986,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8516071475598977839}
     m_Modifications:
-    - target: {fileID: 3155274558423696078, guid: becf06ad5c5d29947aaf155b743a589f,
-        type: 3}
-      propertyPath: m_Name
-      value: Hologram
-      objectReference: {fileID: 0}
     - target: {fileID: 3155274558423696081, guid: becf06ad5c5d29947aaf155b743a589f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1028,6 +1056,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.8
       objectReference: {fileID: 0}
+    - target: {fileID: 3155274558423696078, guid: becf06ad5c5d29947aaf155b743a589f,
+        type: 3}
+      propertyPath: m_Name
+      value: Hologram
+      objectReference: {fileID: 0}
+    - target: {fileID: 3155274559061477831, guid: becf06ad5c5d29947aaf155b743a589f,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: becf06ad5c5d29947aaf155b743a589f, type: 3}
 --- !u!4 &142003694758855917 stripped
@@ -1039,6 +1077,12 @@ Transform:
 --- !u!23 &142003694322765818 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3155274559061477830, guid: becf06ad5c5d29947aaf155b743a589f,
+    type: 3}
+  m_PrefabInstance: {fileID: 3040412322163656252}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &142003694322765816 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3155274559061477828, guid: becf06ad5c5d29947aaf155b743a589f,
     type: 3}
   m_PrefabInstance: {fileID: 3040412322163656252}
   m_PrefabAsset: {fileID: 0}
@@ -1151,11 +1195,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8516071475598977839}
     m_Modifications:
-    - target: {fileID: 159222792811499563, guid: 83e124bd4c9570b4c9980d98e7b6f16b,
-        type: 3}
-      propertyPath: m_Name
-      value: Gun
-      objectReference: {fileID: 0}
     - target: {fileID: 159222792811400203, guid: 83e124bd4c9570b4c9980d98e7b6f16b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1210,6 +1249,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159222792811499563, guid: 83e124bd4c9570b4c9980d98e7b6f16b,
+        type: 3}
+      propertyPath: m_Name
+      value: Gun
       objectReference: {fileID: 0}
     - target: {fileID: 6338989385834390364, guid: 83e124bd4c9570b4c9980d98e7b6f16b,
         type: 3}
