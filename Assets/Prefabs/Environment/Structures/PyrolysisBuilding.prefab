@@ -25261,6 +25261,81 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5033269576677176972, guid: 5fff9374cc05ae340840db19e536ffc3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.846
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033269576677176972, guid: 5fff9374cc05ae340840db19e536ffc3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3845
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033269576677176972, guid: 5fff9374cc05ae340840db19e536ffc3,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.846
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033269576677176972, guid: 5fff9374cc05ae340840db19e536ffc3,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.031
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462367991935585513, guid: 5fff9374cc05ae340840db19e536ffc3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5362
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462367991935585513, guid: 5fff9374cc05ae340840db19e536ffc3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7681
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462367991935585513, guid: 5fff9374cc05ae340840db19e536ffc3,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.030724
+      objectReference: {fileID: 0}
+    - target: {fileID: 7842848999283015351, guid: 5fff9374cc05ae340840db19e536ffc3,
+        type: 3}
+      propertyPath: m_text
+      value: "1 CH4\n+\n 3 Plastic Flessen \n= \nDiesel"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7842848999283015351, guid: 5fff9374cc05ae340840db19e536ffc3,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 7842848999283015351, guid: 5fff9374cc05ae340840db19e536ffc3,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7842848999283015351, guid: 5fff9374cc05ae340840db19e536ffc3,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 7842848999283015351, guid: 5fff9374cc05ae340840db19e536ffc3,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7842848999283015351, guid: 5fff9374cc05ae340840db19e536ffc3,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7842848999283015351, guid: 5fff9374cc05ae340840db19e536ffc3,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7842848999283015351, guid: 5fff9374cc05ae340840db19e536ffc3,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 4816648759365584414, guid: 5fff9374cc05ae340840db19e536ffc3,
         type: 3}
       propertyPath: m_Mesh
