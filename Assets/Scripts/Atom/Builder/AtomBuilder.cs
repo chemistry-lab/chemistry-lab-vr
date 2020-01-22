@@ -160,7 +160,10 @@ namespace Atom.Builder
         {
             contents.Clear();
             visualization.Reset();
-            Validate();
+
+            atomPreview.material.color = invalidColor;
+            validationLight.material.SetColor("_EmissionColor", Color.red);
+            current = null;
         }
     }
 }
