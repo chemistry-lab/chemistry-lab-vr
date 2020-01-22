@@ -1,22 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &875675022556303987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 142003694322765816}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0df57f68e2a445f45bb71dcadd3a3243, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  action:
-    id: 3
-    description: Thumbstick Pose
-    axisConstraint: 4
-  atomBuilder: {fileID: 8505388558525959654}
 --- !u!54 &35386493782230373
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33,6 +16,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &875675022556303987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142003694322765816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0df57f68e2a445f45bb71dcadd3a3243, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    id: 4
+    description: Trigger Press
+    axisConstraint: 2
+  atomBuilder: {fileID: 8505388558525959654}
 --- !u!1 &1431470998849563509
 GameObject:
   m_ObjectHideFlags: 0

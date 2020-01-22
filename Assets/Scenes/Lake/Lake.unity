@@ -906,9 +906,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   action:
-    id: 3
-    description: Thumbstick Pose
-    axisConstraint: 4
+    id: 4
+    description: Trigger Press
+    axisConstraint: 2
   atomBuilder: {fileID: 1085775022}
 --- !u!1001 &419935615
 PrefabInstance:
@@ -1967,8 +1967,29 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2048232651771400442, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: action.id
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048232651771400442, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: action.description
+      value: None
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048232651771400442, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: action.axisConstraint
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048232651771400442, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: atomBuilder
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4504105518041063475, guid: 1f454aa84b7c83b42afda2ab24451d23, type: 3}
+    - {fileID: 2048232651771400442, guid: 1f454aa84b7c83b42afda2ab24451d23, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1f454aa84b7c83b42afda2ab24451d23, type: 3}
 --- !u!114 &1085775022 stripped
 MonoBehaviour:

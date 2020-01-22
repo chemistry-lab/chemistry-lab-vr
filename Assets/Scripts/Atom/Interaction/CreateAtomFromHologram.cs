@@ -15,25 +15,23 @@ public class CreateAtomFromHologram : MonoBehaviour, IMixedRealityInputHandler
     
     private GrabbableController grabbableControllerInTrigger = null;
 
-    public void OnInputDown(InputEventData eventData)
-    {
-        if (eventData.MixedRealityInputAction == action && grabbableControllerInTrigger)
-        {
-            atomBuilder.CreateAtom(grabbableControllerInTrigger.transform.position);
-            grabbableControllerInTrigger.Pickup();
-        }
-    }
-
-    public void OnInputUp(InputEventData eventData) { }
-
     private void Awake()
     {
         CoreServices.InputSystem?.RegisterHandler<IMixedRealityInputHandler>(this);
     }
 
+    public void OnInputDown(InputEventData eventData)
+    {
+        if (eventData.MixedRealityInputAction == action && grabbableControllerInTrigger)
+        {
+            atomBuilder.CreateAtom(grabbableControllerInTrigger.transform.position);
+        }
+    }
+
+    public void OnInputUp(InputEventData eventData) { }
+
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("In");
         GrabbableController grabbableController = other.GetComponent<GrabbableController>();
         if (grabbableController) grabbableControllerInTrigger = grabbableController;
     }
