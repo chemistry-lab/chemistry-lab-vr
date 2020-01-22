@@ -6,7 +6,6 @@ using Microsoft.MixedReality.Toolkit;
 using UnityEngine;
 
 using Interactables;
-using UnityEngine.Experimental.PlayerLoop;
 
 namespace Player
 {
@@ -82,7 +81,7 @@ namespace Player
             }
         }
 
-        private void Pickup()
+        public void Pickup()
         {
             currentGrabbable = GetNearestGrabbable();
 
@@ -103,7 +102,7 @@ namespace Player
             currentGrabbable.ActiveController = this;
         }
 
-        private void Drop()
+        public void Drop()
         {
             if (!currentGrabbable) return;
 

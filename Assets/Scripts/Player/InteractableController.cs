@@ -76,7 +76,7 @@ namespace Player
             }
             else
             {
-                if (currentHighlightable != null) currentHighlightable.OnHighlightStop();
+                currentHighlightable?.OnHighlightStop();
                 currentHighlightable = null;
                 currentInteractable = null;
             }
