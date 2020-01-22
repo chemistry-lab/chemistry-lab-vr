@@ -33,6 +33,7 @@ public class CreateAtomFromHologram : MonoBehaviour, IMixedRealityInputHandler
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("In");
         GrabbableController grabbableController = other.GetComponent<GrabbableController>();
         if (grabbableController) grabbableControllerInTrigger = grabbableController;
     }
