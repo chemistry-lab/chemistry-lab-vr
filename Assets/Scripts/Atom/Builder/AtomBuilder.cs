@@ -19,8 +19,8 @@ namespace Atom.Builder
         [SerializeField] private TextMeshPro electronsLabel = null;
         [SerializeField] private Visualization.Atom visualization = null;
 
-        [Header("Validation")] [SerializeField]
-        private Renderer validationLight = null;
+        [Header("Validation")]
+        [SerializeField] private Renderer validationLight = null;
 
         [SerializeField] private Renderer atomPreview = null;
         [SerializeField] private Transform spawnPoint = null;
