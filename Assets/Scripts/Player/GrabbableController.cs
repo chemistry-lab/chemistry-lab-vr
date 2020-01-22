@@ -6,6 +6,7 @@ using Microsoft.MixedReality.Toolkit;
 using UnityEngine;
 
 using Interactables;
+using UnityEngine.Experimental.PlayerLoop;
 
 namespace Player
 {
@@ -52,7 +53,12 @@ namespace Player
 
         public void OnInputUp(InputEventData eventData)
         {
-            if (eventData.MixedRealityInputAction == action && eventData.Handedness == handedness)
+            if (eventData.MixedRealityInputAction != action || eventData.Handedness != handedness)
+            {
+                return;
+            }
+
+            if (!currentGrabbable.IsEquippable)
             {
                 Drop();
             }
@@ -60,13 +66,23 @@ namespace Player
 
         public void OnInputDown(InputEventData eventData)
         {
-            if (eventData.MixedRealityInputAction == action && eventData.Handedness == handedness)
+            if (eventData.MixedRealityInputAction != action || eventData.Handedness != handedness)
+            {
+                return;
+            }
+
+            // Check if there is a grabbable equiped
+            if (currentGrabbable != null && currentGrabbable.IsEquippable)
+            {
+                Drop();
+            }
+            else
             {
                 Pickup();
             }
         }
 
-        public void Pickup()
+        private void Pickup()
         {
             currentGrabbable = GetNearestGrabbable();
 
@@ -75,8 +91,9 @@ namespace Player
 
             if (currentGrabbable.IsEquippable)
             {
-                currentGrabbable.transform.position = pose.transform.position;
-                currentGrabbable.transform.rotation = pose.transform.rotation * Quaternion.Euler(currentGrabbable.EquippableOffset);
+                var poseTransform = pose.transform;
+                currentGrabbable.transform.position = poseTransform.position;
+                currentGrabbable.transform.rotation = poseTransform.rotation * Quaternion.Euler(currentGrabbable.EquippableOffset);
             }
 
             currentGrabbable.OnPickup();
@@ -86,7 +103,7 @@ namespace Player
             currentGrabbable.ActiveController = this;
         }
 
-        public void Drop()
+        private void Drop()
         {
             if (!currentGrabbable) return;
 
@@ -96,7 +113,8 @@ namespace Player
                 Vector3 angularVelocity = pose.Controller.AngularVelocity;
                 currentGrabbable.OnDrop(velocity, angularVelocity);
             }
-
+            
+            
             currentGrabbable.OnDrop();
             joint.connectedBody = null;
             currentGrabbable.ActiveController = null;
@@ -105,22 +123,23 @@ namespace Player
 
         private Grabbable GetNearestGrabbable()
         {
-            Grabbable nearest = null;
+            Grabbable nearestGrabbable = null;
             float minDistance = float.MaxValue;
-            float distance = 0.0f;
 
             foreach (Grabbable grabbable in contactGrabbables)
             {
-                distance = (grabbable.transform.position - transform.position).sqrMagnitude;
+                float distance = (grabbable.transform.position - transform.position).sqrMagnitude;
 
-                if (distance < minDistance)
+                if (!(distance < minDistance))
                 {
-                    minDistance = distance;
-                    nearest = grabbable;
+                    continue;
                 }
+
+                minDistance = distance;
+                nearestGrabbable = grabbable;
             }
 
-            return nearest;
+            return nearestGrabbable;
         }
     }
 }

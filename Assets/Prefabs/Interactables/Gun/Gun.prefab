@@ -86,6 +86,7 @@ MonoBehaviour:
   equippableOffset: {x: 35, y: 0, z: 0}
   isThrowable: 0
   throwableMultiplier: 2
+  isToggleable: 1
 --- !u!114 &8299609919331116400
 MonoBehaviour:
   m_ObjectHideFlags: 0
