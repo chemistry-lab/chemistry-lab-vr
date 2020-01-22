@@ -157,7 +157,7 @@ namespace Atom.Builder
         }
 
 
-        public void Reset()
+        public void ResetAtom()
         {
             int amountOfElectron = GetCount(AtomPart.Electron);
             int amountOfProton = GetCount(AtomPart.Electron);
