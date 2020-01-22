@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 
 using UnityEngine;
 using TMPro;
@@ -137,15 +138,28 @@ namespace Atom.Builder
 
             foreach (AtomPack atom in atoms)
             {
-                if (atom.Neutrons == GetCount(AtomPart.Neutron) && atom.Protons == GetCount(AtomPart.Proton) && atom.Electrons == GetCount(AtomPart.Electron))
+                if (atom.Neutrons == GetCount(AtomPart.Neutron) && atom.Protons == GetCount(AtomPart.Proton) &&
+                    atom.Electrons == GetCount(AtomPart.Electron))
                 {
                     validationLight.material.SetColor("_EmissionColor", Color.green);
                     atomPreview.material.color = validColor;
-                    atomPreview.material.SetTexture("_MainTex", atom.gameObject.GetComponent<Renderer>().sharedMaterial.GetTexture("_MainTex"));
+                    atomPreview.material.SetTexture("_MainTex",
+                        atom.gameObject.GetComponent<Renderer>().sharedMaterial.GetTexture("_MainTex"));
                     current = atom;
                     return;
                 }
             }
+
+            atomPreview.material.color = invalidColor;
+            validationLight.material.SetColor("_EmissionColor", Color.red);
+            current = null;
+        }
+
+
+        public void ResetAtom()
+        {
+            contents.Clear();
+            visualization.Reset();
 
             atomPreview.material.color = invalidColor;
             validationLight.material.SetColor("_EmissionColor", Color.red);

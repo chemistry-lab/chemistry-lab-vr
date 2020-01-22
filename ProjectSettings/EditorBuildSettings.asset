@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lake/Lake.unity
     guid: 15b328bdcc3a66541a8aca1687fb01cf
+  - enabled: 1
+    path: Assets/Scenes/Pyrolysis/Pyrolysis.unity
+    guid: 68cc81acae3c8b943b60874db745248b
   m_configObjects: {}
