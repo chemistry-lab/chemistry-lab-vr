@@ -885,16 +885,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 163920252958698627, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.922
-      objectReference: {fileID: 0}
-    - target: {fileID: 163920252958698627, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.474
-      objectReference: {fileID: 0}
     - target: {fileID: 5318616650330772580, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
       propertyPath: m_Text
@@ -915,6 +905,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Alignment
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_text
+      value: Neem plastic fles van de grond en ga naar het grote gebouw rechts hiervan.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 74
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 163920252958698627, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.922
+      objectReference: {fileID: 0}
+    - target: {fileID: 163920252958698627, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.474
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2d62458279215243a9bc63ff8d65643, type: 3}
