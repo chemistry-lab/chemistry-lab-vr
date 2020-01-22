@@ -8,9 +8,11 @@ namespace Player
 {
     public class InteractableController : MonoBehaviour, IMixedRealityInputHandler
     {
-        [Header("Input")] [SerializeField] private MixedRealityInputAction action = MixedRealityInputAction.None;
+        [Header("Input")]
+        [SerializeField] private MixedRealityInputAction action = MixedRealityInputAction.None;
 
-        [Header("Raycast")] [SerializeField] private Vector3 angle = Vector3.zero;
+        [Header("Raycast")]
+        [SerializeField] private Vector3 angle = Vector3.zero;
         [SerializeField] private float maxDistance = 10.0f;
 
         private Highlightable currentHighlightable = null;

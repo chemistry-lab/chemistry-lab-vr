@@ -1784,45 +1784,15 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 4152731647225204377, guid: 1f454aa84b7c83b42afda2ab24451d23,
-        type: 3}
-      propertyPath: destroyTimeout
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1275559854830816637, guid: 1f454aa84b7c83b42afda2ab24451d23,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.097
-      objectReference: {fileID: 0}
-    - target: {fileID: 1275559854830816626, guid: 1f454aa84b7c83b42afda2ab24451d23,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2048232651771400442, guid: 1f454aa84b7c83b42afda2ab24451d23,
-        type: 3}
-      propertyPath: action.id
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2048232651771400442, guid: 1f454aa84b7c83b42afda2ab24451d23,
-        type: 3}
-      propertyPath: action.description
-      value: Trigger Press
-      objectReference: {fileID: 0}
-    - target: {fileID: 2048232651771400442, guid: 1f454aa84b7c83b42afda2ab24451d23,
-        type: 3}
-      propertyPath: action.axisConstraint
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2048232651771400442, guid: 1f454aa84b7c83b42afda2ab24451d23,
-        type: 3}
-      propertyPath: atomBuilder
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4114551351550532291, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.772
+      objectReference: {fileID: 0}
+    - target: {fileID: 4152731647225204377, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: destroyTimeout
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8316225323167394416, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
@@ -1917,6 +1887,36 @@ PrefabInstance:
     - target: {fileID: 2645447474451202723, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
       propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1275559854830816637, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.097
+      objectReference: {fileID: 0}
+    - target: {fileID: 1275559854830816626, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048232651771400442, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: action.id
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048232651771400442, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: action.description
+      value: Trigger Press
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048232651771400442, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: action.axisConstraint
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048232651771400442, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: atomBuilder
       value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -6947,6 +6947,8 @@ Transform:
   - {fileID: 419935616}
   - {fileID: 140472672}
   - {fileID: 235786990}
+  - {fileID: 1290241171535760340}
+  - {fileID: 2071992260}
   m_Father: {fileID: 39315329}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8459,17 +8461,17 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1220703322}
     m_Modifications:
     - target: {fileID: 6453992562761260732, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
       propertyPath: m_Name
-      value: LakeContextSign (1)
+      value: Sign (2)
       objectReference: {fileID: 0}
     - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.15
+      value: -30.65
       objectReference: {fileID: 0}
     - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
@@ -8479,12 +8481,12 @@ PrefabInstance:
     - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 43.16
+      value: 30.66
       objectReference: {fileID: 0}
     - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
@@ -8494,7 +8496,7 @@ PrefabInstance:
     - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
@@ -8504,7 +8506,7 @@ PrefabInstance:
     - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
@@ -8573,24 +8575,66 @@ PrefabInstance:
       propertyPath: m_textAlignment
       value: 514
       objectReference: {fileID: 0}
+    - target: {fileID: 935271761305157811, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_text
+      value: Gebruik de maatkolf om een monster uit het meer te nemen. Zet het monster
+        in de machine om deze te bestuderen.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2d62458279215243a9bc63ff8d65643, type: 3}
+--- !u!4 &2071992260 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
+    type: 3}
+  m_PrefabInstance: {fileID: 2071992259}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1290241171535760339
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1220703322}
     m_Modifications:
     - target: {fileID: 6453992562761260732, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
       propertyPath: m_Name
-      value: LakeContextSign
+      value: Sign (1)
       objectReference: {fileID: 0}
     - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.35
+      value: -22.85
       objectReference: {fileID: 0}
     - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
@@ -8600,22 +8644,22 @@ PrefabInstance:
     - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.23
+      value: -10.27
       objectReference: {fileID: 0}
     - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
@@ -8625,7 +8669,7 @@ PrefabInstance:
     - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
@@ -8694,5 +8738,50 @@ PrefabInstance:
       propertyPath: m_textAlignment
       value: 514
       objectReference: {fileID: 0}
+    - target: {fileID: 935271761305157811, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_text
+      value: 'We hebben je hulp nodig!
+
+        Het meer is vervuild geraakt.
+
+        Ga naar het lab en pak de maatkolf.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2d62458279215243a9bc63ff8d65643, type: 3}
+--- !u!4 &1290241171535760340 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
+    type: 3}
+  m_PrefabInstance: {fileID: 1290241171535760339}
+  m_PrefabAsset: {fileID: 0}

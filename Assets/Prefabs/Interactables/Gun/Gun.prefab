@@ -84,9 +84,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isEquippable: 1
   equippableOffset: {x: 35, y: 0, z: 0}
-  isThrowable: 0
+  isThrowable: 1
   throwableMultiplier: 2
-  isToggleable: 1
 --- !u!114 &8299609919331116400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,7 +115,7 @@ MonoBehaviour:
     type: 3}
   undoBullet: {fileID: 2907625843329985349, guid: 94c61a3c1ff793b48b72199426f25f78,
     type: 3}
-  speed: 15
+  speed: 25
   destroy: 5
   label: {fileID: 7513432642468198137}
   audioSource: {fileID: 57469839534903534}
@@ -131,7 +130,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 691bdaa177a00f14db2c960161e97f28, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 0.484
   m_Pitch: 1
