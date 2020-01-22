@@ -11,18 +11,17 @@ namespace Atom.Builder
 {
     public class AtomBuilder : MonoBehaviour
     {
-        [Header("Atoms")] [SerializeField] private List<AtomPack> atoms = new List<AtomPack>();
+        [Header("Atoms")]
+        [SerializeField] private List<AtomPack> atoms = new List<AtomPack>();
 
-        [Header("Visualization")] [SerializeField]
-        private TextMeshPro protonsLabel = null;
-
+        [Header("Visualization")]
+        [SerializeField] private TextMeshPro protonsLabel = null;
         [SerializeField] private TextMeshPro neutronsLabel = null;
         [SerializeField] private TextMeshPro electronsLabel = null;
         [SerializeField] private Visualization.Atom visualization = null;
 
-        [Header("Validation")] [SerializeField]
-        private Renderer validationLight = null;
-
+        [Header("Validation")]
+        [SerializeField] private Renderer validationLight = null;
         [SerializeField] private Renderer atomPreview = null;
         [SerializeField] private Transform spawnPoint = null;
 
