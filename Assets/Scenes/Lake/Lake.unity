@@ -159,7 +159,7 @@ Transform:
   - {fileID: 1220703322}
   - {fileID: 708904468}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &135874399
 GameObject:
@@ -544,135 +544,6 @@ Terrain:
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
   m_AllowAutoConnect: 1
---- !u!1001 &172693359
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3376524218162410778, guid: 65ff985b56a25e14e8caa2d3aad307b5,
-        type: 3}
-      propertyPath: m_Name
-      value: Pedestal
-      objectReference: {fileID: 0}
-    - target: {fileID: 3376524218162410758, guid: 65ff985b56a25e14e8caa2d3aad307b5,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 3376524218162410758, guid: 65ff985b56a25e14e8caa2d3aad307b5,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3376524218162410758, guid: 65ff985b56a25e14e8caa2d3aad307b5,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 32
-      objectReference: {fileID: 0}
-    - target: {fileID: 3376524218162410758, guid: 65ff985b56a25e14e8caa2d3aad307b5,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3376524218162410758, guid: 65ff985b56a25e14e8caa2d3aad307b5,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3376524218162410758, guid: 65ff985b56a25e14e8caa2d3aad307b5,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3376524218162410758, guid: 65ff985b56a25e14e8caa2d3aad307b5,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3376524218162410758, guid: 65ff985b56a25e14e8caa2d3aad307b5,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3376524218162410758, guid: 65ff985b56a25e14e8caa2d3aad307b5,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3376524218162410758, guid: 65ff985b56a25e14e8caa2d3aad307b5,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3376524218162410758, guid: 65ff985b56a25e14e8caa2d3aad307b5,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3376524218162410758, guid: 65ff985b56a25e14e8caa2d3aad307b5,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3376524218162410758, guid: 65ff985b56a25e14e8caa2d3aad307b5,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.6
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 65ff985b56a25e14e8caa2d3aad307b5, type: 3}
---- !u!1 &172693360 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3376524218162410778, guid: 65ff985b56a25e14e8caa2d3aad307b5,
-    type: 3}
-  m_PrefabInstance: {fileID: 172693359}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &172693361
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 172693360}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f02a41a960ea66a40b9f2febdd513a9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correct: {fileID: 4637493530583022498, guid: 2991a047d5d4ede418ec013e204ac8d6, type: 3}
-  dirtyParticles:
-  - {fileID: 1216492613}
-  dirtyObjects:
-  - {fileID: 1577555399}
-  - {fileID: 419935617}
-  - {fileID: 140472673}
-  - {fileID: 235786991}
-  dirtyWater:
-  - {fileID: 1609011492}
-  - {fileID: 333887254}
-  - {fileID: 17071781}
-  cleanWater: {fileID: 2800000, guid: ff446bc77aa02744994aadf429d7f00e, type: 3}
-  fadeTimer: 3
-  loader: {fileID: 481996498}
-  scene:
-    sceneAsset: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
-    sceneName: Scenes/Main
-  timeout: 5
---- !u!65 &172693362
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 172693360}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1.0000001}
-  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!1001 &235786989
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1726,7 +1597,7 @@ PrefabInstance:
     - target: {fileID: 2126103739009182202, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 2126103739009182202, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
@@ -1756,7 +1627,7 @@ PrefabInstance:
     - target: {fileID: 2126103739009182202, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2126103739009182202, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
@@ -7901,6 +7772,37 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 30, y: 4, z: 30}
   m_Center: {x: 0, y: -4, z: 0}
+--- !u!114 &1661396128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661396125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f02a41a960ea66a40b9f2febdd513a9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correct: {fileID: 4637493530583022498, guid: 2991a047d5d4ede418ec013e204ac8d6, type: 3}
+  dirtyParticles:
+  - {fileID: 1216492613}
+  dirtyObjects:
+  - {fileID: 1577555399}
+  - {fileID: 419935617}
+  - {fileID: 140472673}
+  - {fileID: 235786991}
+  dirtyWater:
+  - {fileID: 1609011492}
+  - {fileID: 333887254}
+  - {fileID: 17071781}
+  cleanWater: {fileID: 2800000, guid: ff446bc77aa02744994aadf429d7f00e, type: 3}
+  fadeTimer: 3
+  loader: {fileID: 481996498}
+  scene:
+    sceneAsset: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+    sceneName: Scenes/Main
+  timeout: 5
 --- !u!1 &1665651579
 GameObject:
   m_ObjectHideFlags: 0
