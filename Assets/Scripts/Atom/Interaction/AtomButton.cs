@@ -18,7 +18,7 @@ namespace Atom
 
         public void OnInteractionStart()
         {
-            builder.CreateAtom(new Vector3(0,0,0));
+            builder.CreateAtom();
         }
 
         public void OnInteractionStop() { }
