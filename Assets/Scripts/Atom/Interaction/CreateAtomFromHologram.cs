@@ -13,7 +13,7 @@ public class CreateAtomFromHologram : MonoBehaviour, IMixedRealityInputHandler
 
     [SerializeField] private AtomBuilder atomBuilder = null;
     
-    private GrabbableController grabbableControllerInTrigger = null;
+    private bool grabbableControllerInTrigger = false;
 
     private void Awake()
     {
@@ -22,22 +22,18 @@ public class CreateAtomFromHologram : MonoBehaviour, IMixedRealityInputHandler
 
     public void OnInputDown(InputEventData eventData)
     {
-        if (eventData.MixedRealityInputAction == action && grabbableControllerInTrigger)
-        {
-            atomBuilder.CreateAtom(grabbableControllerInTrigger.transform.position);
-        }
+        if (eventData.MixedRealityInputAction == action && grabbableControllerInTrigger) atomBuilder.CreateAtom();
     }
 
     public void OnInputUp(InputEventData eventData) { }
 
     private void OnTriggerEnter(Collider other)
     {
-        GrabbableController grabbableController = other.GetComponent<GrabbableController>();
-        if (grabbableController) grabbableControllerInTrigger = grabbableController;
+        if (other.GetComponent<GrabbableController>()) grabbableControllerInTrigger = true;
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.GetComponent<GrabbableController>()) grabbableControllerInTrigger = null;
+        if (other.GetComponent<GrabbableController>()) grabbableControllerInTrigger = false;
     }
 }

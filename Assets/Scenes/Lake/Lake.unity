@@ -1913,15 +1913,15 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 1275559854830816637, guid: 1f454aa84b7c83b42afda2ab24451d23,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.097
-      objectReference: {fileID: 0}
     - target: {fileID: 4152731647225204377, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
       propertyPath: destroyTimeout
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1275559854830816637, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.097
       objectReference: {fileID: 0}
     - target: {fileID: 1275559854830816626, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
@@ -1947,6 +1947,11 @@ PrefabInstance:
         type: 3}
       propertyPath: atomBuilder
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114551351550532291, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.772
       objectReference: {fileID: 0}
     - target: {fileID: 8316225323167394416, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
