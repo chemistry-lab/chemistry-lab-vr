@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 
 using UnityEngine;
 using TMPro;
@@ -10,17 +11,18 @@ namespace Atom.Builder
 {
     public class AtomBuilder : MonoBehaviour
     {
-        [Header("Atoms")]
-        [SerializeField] private List<AtomPack> atoms = new List<AtomPack>();
+        [Header("Atoms")] [SerializeField] private List<AtomPack> atoms = new List<AtomPack>();
 
-        [Header("Visualization")]
-        [SerializeField] private TextMeshPro protonsLabel = null;
+        [Header("Visualization")] [SerializeField]
+        private TextMeshPro protonsLabel = null;
+
         [SerializeField] private TextMeshPro neutronsLabel = null;
         [SerializeField] private TextMeshPro electronsLabel = null;
         [SerializeField] private Visualization.Atom visualization = null;
 
-        [Header("Validation")]
-        [SerializeField] private Renderer validationLight = null;
+        [Header("Validation")] [SerializeField]
+        private Renderer validationLight = null;
+
         [SerializeField] private Renderer atomPreview = null;
         [SerializeField] private Transform spawnPoint = null;
 
@@ -137,11 +139,13 @@ namespace Atom.Builder
 
             foreach (AtomPack atom in atoms)
             {
-                if (atom.Neutrons == GetCount(AtomPart.Neutron) && atom.Protons == GetCount(AtomPart.Proton) && atom.Electrons == GetCount(AtomPart.Electron))
+                if (atom.Neutrons == GetCount(AtomPart.Neutron) && atom.Protons == GetCount(AtomPart.Proton) &&
+                    atom.Electrons == GetCount(AtomPart.Electron))
                 {
                     validationLight.material.SetColor("_EmissionColor", Color.green);
                     atomPreview.material.color = validColor;
-                    atomPreview.material.SetTexture("_MainTex", atom.gameObject.GetComponent<Renderer>().sharedMaterial.GetTexture("_MainTex"));
+                    atomPreview.material.SetTexture("_MainTex",
+                        atom.gameObject.GetComponent<Renderer>().sharedMaterial.GetTexture("_MainTex"));
                     current = atom;
                     return;
                 }
@@ -150,6 +154,33 @@ namespace Atom.Builder
             atomPreview.material.color = invalidColor;
             validationLight.material.SetColor("_EmissionColor", Color.red);
             current = null;
+        }
+
+
+        public void Reset()
+        {
+            int amountOfElectron = GetCount(AtomPart.Electron);
+            int amountOfProton = GetCount(AtomPart.Electron);
+            int amountOfNeutron = GetCount(AtomPart.Electron);
+            StartCoroutine(SubtractAllAtomicParts(amountOfElectron, amountOfProton, amountOfNeutron));
+        }
+
+        private IEnumerator SubtractAllAtomicParts(int electrons, int protons, int neutrons)
+        {
+            for (int i = 0; i < electrons; i++)
+            {
+                SubtractElectron();
+            }
+            for (int i = 0; i < protons; i++)
+            {
+                SubtractProton();
+            }
+            for (int i = 0; i < neutrons; i++)
+            { 
+                SubtractNeutron();
+            }
+
+            return null;
         }
     }
 }
