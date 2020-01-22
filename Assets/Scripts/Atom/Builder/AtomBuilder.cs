@@ -13,9 +13,8 @@ namespace Atom.Builder
     {
         [Header("Atoms")] [SerializeField] private List<AtomPack> atoms = new List<AtomPack>();
 
-        [Header("Visualization")] [SerializeField]
-        private TextMeshPro protonsLabel = null;
-
+        [Header("Visualization")]
+        [SerializeField] private TextMeshPro protonsLabel = null;
         [SerializeField] private TextMeshPro neutronsLabel = null;
         [SerializeField] private TextMeshPro electronsLabel = null;
         [SerializeField] private Visualization.Atom visualization = null;
