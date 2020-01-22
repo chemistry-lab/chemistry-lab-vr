@@ -6,7 +6,7 @@ using Atom.Builder;
 namespace Atom
 {
     [RequireComponent(typeof(Collider))]
-    public class AtomButton : MonoBehaviour, Highlightable, Interactable
+    public class AtomButton : MonoBehaviour
     {
         [Header("Build")]
         [SerializeField] private AtomBuilder builder = null;
@@ -16,19 +16,13 @@ namespace Atom
         [Range(0f, 0.1f)]
         [SerializeField] private float thickness = 0.025f;
 
-        public void OnInteractionStart()
+        private void OnTriggerEnter(Collider other)
         {
-            builder.CreateAtom();
-        }
-
-        public void OnInteractionStop() { }
-
-        public void OnHighlightStart()
-        {
+            //builder.ResetAtom();
             button.material.SetFloat("_OutlineWidth", thickness);
         }
 
-        public void OnHighlightStop()
+        private void OnTriggerExit(Collider other)
         {
             button.material.SetFloat("_OutlineWidth", 0f);
         }
