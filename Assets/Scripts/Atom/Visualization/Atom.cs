@@ -63,5 +63,13 @@ namespace Atom.Visualization
         {
             audioSource.PlayOneShot(removeSound, 1f);
         }
+
+        public void Reset()
+        {
+            firstOrbital.Reset();
+            secondOrbital.Reset();
+            //thirdOrbital.Reset();
+            nucleus.Reset();
+        }
     }
 }

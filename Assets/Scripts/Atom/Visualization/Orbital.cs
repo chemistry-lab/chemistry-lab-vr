@@ -43,5 +43,13 @@ namespace Atom.Visualization
             }
             return null;
         }
+
+        public void Reset()
+        {
+            foreach (var electron in electrons)
+            {
+                electron.SetActive(false);
+            }
+        }
     }
 }

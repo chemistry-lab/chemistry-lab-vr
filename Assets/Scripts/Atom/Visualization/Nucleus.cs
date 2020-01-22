@@ -61,5 +61,18 @@ namespace Atom.Visualization
             }
             return null;
         }
+
+        public void Reset()
+        {
+            foreach (GameObject neutron in neutrons)
+            {
+                neutron.SetActive((false));
+            }
+            foreach (GameObject proton in protons)
+            {
+                proton.SetActive((false));
+            }
+            
+        }
     }
 }
