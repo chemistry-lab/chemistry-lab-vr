@@ -8051,106 +8051,6 @@ Terrain:
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
   m_AllowAutoConnect: 1
---- !u!1001 &1717013472
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6453992562761260732, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_Name
-      value: LakeContextSign (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 23.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.526
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 33.21
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 163920252958698627, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.991
-      objectReference: {fileID: 0}
-    - target: {fileID: 163920252958698627, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.461
-      objectReference: {fileID: 0}
-    - target: {fileID: 5318616650330772580, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_Text
-      value: "3. Stop de maatbeker in het \nmeer om een monster te \nnemen en ga terug
-        naar het \nlab en stop het \nin de sampler machine"
-      objectReference: {fileID: 0}
-    - target: {fileID: 5318616650330772580, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_FontSize
-      value: 125
-      objectReference: {fileID: 0}
-    - target: {fileID: 5318616650330772580, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_Anchor
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5318616650330772580, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_Alignment
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b2d62458279215243a9bc63ff8d65643, type: 3}
 --- !u!1 &1717584154
 GameObject:
   m_ObjectHideFlags: 0
@@ -8523,6 +8423,47 @@ PrefabInstance:
       propertyPath: m_FontSize
       value: 125
       objectReference: {fileID: 0}
+    - target: {fileID: 896223993129785177, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_text
+      value: "Gebruik de maatkolf om \neen monster uit het meer\nte halen. Zet het
+        monster in de machine om deze te bestuderen."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 111
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textAlignment
+      value: 514
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2d62458279215243a9bc63ff8d65643, type: 3}
 --- !u!1001 &1290241171535760339
@@ -8602,6 +8543,47 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontSize
       value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 896223993129785177, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_text
+      value: "We hebben je hulp nodig! \nHet meer is vervuild geraakt. \nGa naar het
+        lab en pak de maatbeker."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 93
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_textAlignment
+      value: 514
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2d62458279215243a9bc63ff8d65643, type: 3}
