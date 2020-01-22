@@ -8,11 +8,9 @@ namespace Player
 {
     public class InteractableController : MonoBehaviour, IMixedRealityInputHandler
     {
-        [Header("Input")]
-        [SerializeField] private MixedRealityInputAction action = MixedRealityInputAction.None;
+        [Header("Input")] [SerializeField] private MixedRealityInputAction action = MixedRealityInputAction.None;
 
-        [Header("Raycast")]
-        [SerializeField] private Vector3 angle = Vector3.zero;
+        [Header("Raycast")] [SerializeField] private Vector3 angle = Vector3.zero;
         [SerializeField] private float maxDistance = 10.0f;
 
         private Highlightable currentHighlightable = null;
@@ -30,26 +28,24 @@ namespace Player
 
         public void OnInputUp(InputEventData eventData)
         {
-            if (eventData.MixedRealityInputAction == action)
+            if (eventData.MixedRealityInputAction == action || currentInteractable == null)
             {
-                if (currentInteractable != null)
-                {
-                    currentInteractable.OnInteractionStop();
-                    eventData.Use();
-                }
+                return;
             }
+
+            currentInteractable.OnInteractionStop();
+            eventData.Use();
         }
 
         public void OnInputDown(InputEventData eventData)
         {
-            if (eventData.MixedRealityInputAction == action)
+            if (eventData.MixedRealityInputAction == action || currentInteractable == null)
             {
-                if (currentInteractable != null)
-                {
-                    currentInteractable.OnInteractionStart();
-                    eventData.Use();
-                }
+                return;
             }
+
+            currentInteractable.OnInteractionStart();
+            eventData.Use();
         }
 
         private void Cast()
@@ -70,7 +66,7 @@ namespace Player
                 {
                     currentHighlightable = hit.collider.gameObject.GetComponent<Highlightable>();
                     currentInteractable = hit.collider.gameObject.GetComponent<Interactable>();
-                    if (currentHighlightable != null) currentHighlightable.OnHighlightStart();
+                    currentHighlightable?.OnHighlightStart();
                 }
                 else
                 {
@@ -80,7 +76,7 @@ namespace Player
             }
             else
             {
-                if (currentHighlightable != null) currentHighlightable.OnHighlightStop();
+                currentHighlightable?.OnHighlightStop();
                 currentHighlightable = null;
                 currentInteractable = null;
             }

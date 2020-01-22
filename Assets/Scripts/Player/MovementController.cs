@@ -40,11 +40,13 @@ namespace Player
 
         public void OnInputChanged(InputEventData<Vector2> eventData)
         {
-            if (eventData.MixedRealityInputAction == action)
+            if (eventData.MixedRealityInputAction != action)
             {
-                thumbstick = eventData.InputData;
-                eventData.Use();
+                return;
             }
+
+            thumbstick = eventData.InputData;
+            eventData.Use();
         }
 
         private void HandleHeight()
