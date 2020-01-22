@@ -827,7 +827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   builder: {fileID: 7987672900686665135}
-  destroyTime: 3
+  destroyTimeout: 1
 --- !u!1 &5034954984325354821
 GameObject:
   m_ObjectHideFlags: 0
@@ -1793,6 +1793,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2089896410908423962, guid: 28d8e71d49d03484fb099e57eea3848a,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.40000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 2089896410908423962, guid: 28d8e71d49d03484fb099e57eea3848a,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.40000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 2089896410908423962, guid: 28d8e71d49d03484fb099e57eea3848a,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.1789646
+      objectReference: {fileID: 0}
+    - target: {fileID: 2089896410908423962, guid: 28d8e71d49d03484fb099e57eea3848a,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 3.3312286e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2089896410908423962, guid: 28d8e71d49d03484fb099e57eea3848a,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.03848231
+      objectReference: {fileID: 0}
+    - target: {fileID: 2089896410908423962, guid: 28d8e71d49d03484fb099e57eea3848a,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28d8e71d49d03484fb099e57eea3848a, type: 3}

@@ -949,11 +949,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8516071475598977839}
     m_Modifications:
-    - target: {fileID: 3155274558423696078, guid: becf06ad5c5d29947aaf155b743a589f,
-        type: 3}
-      propertyPath: m_Name
-      value: Hologram
-      objectReference: {fileID: 0}
     - target: {fileID: 3155274558423696081, guid: becf06ad5c5d29947aaf155b743a589f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1023,6 +1018,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3155274558423696078, guid: becf06ad5c5d29947aaf155b743a589f,
+        type: 3}
+      propertyPath: m_Name
+      value: Hologram
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: becf06ad5c5d29947aaf155b743a589f, type: 3}
@@ -1119,6 +1119,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2089896410908423962, guid: 28d8e71d49d03484fb099e57eea3848a,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.18293083
+      objectReference: {fileID: 0}
+    - target: {fileID: 2089896410908423962, guid: 28d8e71d49d03484fb099e57eea3848a,
+        type: 3}
+      propertyPath: m_Center.y
+      value: -5.009083e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2089896410908423962, guid: 28d8e71d49d03484fb099e57eea3848a,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.040465407
+      objectReference: {fileID: 0}
+    - target: {fileID: 2089896410908423962, guid: 28d8e71d49d03484fb099e57eea3848a,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28d8e71d49d03484fb099e57eea3848a, type: 3}
