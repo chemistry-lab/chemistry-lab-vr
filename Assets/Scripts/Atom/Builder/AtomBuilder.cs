@@ -160,6 +160,7 @@ namespace Atom.Builder
         {
             contents.Clear();
             visualization.Reset();
+            Validate();
         }
     }
 }
