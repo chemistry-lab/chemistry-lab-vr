@@ -176,7 +176,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6754191120291996834}
-  - {fileID: 7378273425002834342}
+  - {fileID: 7289549909982934848}
   - {fileID: 5020877223431348728}
   - {fileID: 4428335997212402552}
   - {fileID: 2029426651890316202}
@@ -397,7 +397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeb7388b165a08f4482b9530cdd531f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  builder: {fileID: 7368725311032840047}
+  builder: {fileID: 0}
 --- !u!1 &6844086935448502010
 GameObject:
   m_ObjectHideFlags: 0
@@ -1010,14 +1010,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9
@@ -1061,6 +1053,14 @@ PrefabInstance:
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
@@ -1144,14 +1144,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1576137913395344, guid: ccb41a28547b4a74d8c0ec4556b9ecdf, type: 3}
-      propertyPath: m_Name
-      value: Deck_WallWindowFrame_02_snaps002 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1576137913395344, guid: ccb41a28547b4a74d8c0ec4556b9ecdf, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4789992241082974, guid: ccb41a28547b4a74d8c0ec4556b9ecdf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9
@@ -1195,6 +1187,14 @@ PrefabInstance:
     - target: {fileID: 4789992241082974, guid: ccb41a28547b4a74d8c0ec4556b9ecdf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1576137913395344, guid: ccb41a28547b4a74d8c0ec4556b9ecdf, type: 3}
+      propertyPath: m_Name
+      value: Deck_WallWindowFrame_02_snaps002 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1576137913395344, guid: ccb41a28547b4a74d8c0ec4556b9ecdf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccb41a28547b4a74d8c0ec4556b9ecdf, type: 3}
@@ -1491,14 +1491,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6
@@ -1543,6 +1535,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
 --- !u!4 &643251437036764116 stripped
@@ -1558,14 +1558,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3060107888863761037}
     m_Modifications:
-    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
-      propertyPath: m_Name
-      value: Hale_Pillar_01_snaps002 (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4445029852578898, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24
@@ -1621,6 +1613,14 @@ PrefabInstance:
     - target: {fileID: 4445029852578898, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
+      propertyPath: m_Name
+      value: Hale_Pillar_01_snaps002 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 23316680945134572, guid: 5c63759061fbf4e40a5d66743b0d9fa0,
         type: 3}
@@ -1985,14 +1985,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (20)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -2036,6 +2028,14 @@ PrefabInstance:
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
@@ -2112,7 +2112,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1163157973369647086}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1174258032538174089
+--- !u!1001 &1370931460825586799
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2204,26 +2204,89 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 161454570875434082, guid: 462d222e922c7ad4c87c21df396d7702,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 161454570875434082, guid: 462d222e922c7ad4c87c21df396d7702,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 161454570875434082, guid: 462d222e922c7ad4c87c21df396d7702,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 161454570875434082, guid: 462d222e922c7ad4c87c21df396d7702,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 161454570875434082, guid: 462d222e922c7ad4c87c21df396d7702,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8736828571188335512, guid: 462d222e922c7ad4c87c21df396d7702,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8736828571188335512, guid: 462d222e922c7ad4c87c21df396d7702,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8736828571188335512, guid: 462d222e922c7ad4c87c21df396d7702,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8736828571188335512, guid: 462d222e922c7ad4c87c21df396d7702,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8736828571188335512, guid: 462d222e922c7ad4c87c21df396d7702,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5653969567561568151, guid: 462d222e922c7ad4c87c21df396d7702,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5653969567561568151, guid: 462d222e922c7ad4c87c21df396d7702,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5653969567561568151, guid: 462d222e922c7ad4c87c21df396d7702,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5653969567561568151, guid: 462d222e922c7ad4c87c21df396d7702,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5653969567561568151, guid: 462d222e922c7ad4c87c21df396d7702,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 462d222e922c7ad4c87c21df396d7702, type: 3}
---- !u!4 &7378273425002834342 stripped
+--- !u!4 &7289549909982934848 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8516071475598977839, guid: 462d222e922c7ad4c87c21df396d7702,
     type: 3}
-  m_PrefabInstance: {fileID: 1174258032538174089}
+  m_PrefabInstance: {fileID: 1370931460825586799}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7368725311032840047 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8505388558525959654, guid: 462d222e922c7ad4c87c21df396d7702,
-    type: 3}
-  m_PrefabInstance: {fileID: 1174258032538174089}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bec63b116bcf7214c9de19c1cfb50eb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1371394343264369268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2381,16 +2444,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3501384932208553874}
     m_Modifications:
-    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
-        type: 3}
-      propertyPath: m_Name
-      value: Light2 (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 5683560221338930280, guid: 1b8350717c767c64bb93b7622b161d04,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2445,6 +2498,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
+        type: 3}
+      propertyPath: m_Name
+      value: Light2 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4067062251464188510, guid: 1b8350717c767c64bb93b7622b161d04,
         type: 3}
@@ -2692,14 +2755,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12
@@ -2743,6 +2798,14 @@ PrefabInstance:
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
@@ -2834,14 +2897,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1576137913395344, guid: ccb41a28547b4a74d8c0ec4556b9ecdf, type: 3}
-      propertyPath: m_Name
-      value: Deck_WallWindowFrame_02_snaps002 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1576137913395344, guid: ccb41a28547b4a74d8c0ec4556b9ecdf, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4789992241082974, guid: ccb41a28547b4a74d8c0ec4556b9ecdf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9
@@ -2886,6 +2941,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1576137913395344, guid: ccb41a28547b4a74d8c0ec4556b9ecdf, type: 3}
+      propertyPath: m_Name
+      value: Deck_WallWindowFrame_02_snaps002 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1576137913395344, guid: ccb41a28547b4a74d8c0ec4556b9ecdf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccb41a28547b4a74d8c0ec4556b9ecdf, type: 3}
 --- !u!4 &1756047083385657904 stripped
@@ -2901,14 +2964,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12
@@ -2952,6 +3007,14 @@ PrefabInstance:
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
@@ -3035,18 +3098,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3091,6 +3142,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
 --- !u!4 &2064625092133238643 stripped
@@ -3106,14 +3169,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -3157,6 +3212,14 @@ PrefabInstance:
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
@@ -3252,14 +3315,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -3303,6 +3358,14 @@ PrefabInstance:
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
@@ -3587,16 +3650,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3501384932208553874}
     m_Modifications:
-    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
-        type: 3}
-      propertyPath: m_Name
-      value: Light2 (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 5683560221338930280, guid: 1b8350717c767c64bb93b7622b161d04,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3652,6 +3705,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
+        type: 3}
+      propertyPath: m_Name
+      value: Light2 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4067062251464188510, guid: 1b8350717c767c64bb93b7622b161d04,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3697,11 +3760,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2126103739009182202}
     m_Modifications:
-    - target: {fileID: 8424623040960298664, guid: af8ad18a4574d2b4b8341dac11e4934c,
-        type: 3}
-      propertyPath: m_Name
-      value: Atom
-      objectReference: {fileID: 0}
     - target: {fileID: 8424623040960298662, guid: af8ad18a4574d2b4b8341dac11e4934c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3756,6 +3814,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424623040960298664, guid: af8ad18a4574d2b4b8341dac11e4934c,
+        type: 3}
+      propertyPath: m_Name
+      value: Atom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af8ad18a4574d2b4b8341dac11e4934c, type: 3}
@@ -3991,14 +4054,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (19)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -4042,6 +4097,14 @@ PrefabInstance:
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
@@ -4480,14 +4543,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8347341800719133840}
     m_Modifications:
-    - target: {fileID: 1363002961666964, guid: 8c39b59b8609eeb41846d53ddd3ce2a8, type: 3}
-      propertyPath: m_Name
-      value: Pipe_S_snaps002 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1363002961666964, guid: 8c39b59b8609eeb41846d53ddd3ce2a8, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4519548827744782, guid: 8c39b59b8609eeb41846d53ddd3ce2a8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5
@@ -4536,6 +4591,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.25
       objectReference: {fileID: 0}
+    - target: {fileID: 1363002961666964, guid: 8c39b59b8609eeb41846d53ddd3ce2a8, type: 3}
+      propertyPath: m_Name
+      value: Pipe_S_snaps002 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1363002961666964, guid: 8c39b59b8609eeb41846d53ddd3ce2a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c39b59b8609eeb41846d53ddd3ce2a8, type: 3}
 --- !u!4 &3694276771279638361 stripped
@@ -4551,16 +4614,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3501384932208553874}
     m_Modifications:
-    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
-        type: 3}
-      propertyPath: m_Name
-      value: Light2 (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 5683560221338930280, guid: 1b8350717c767c64bb93b7622b161d04,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4615,6 +4668,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
+        type: 3}
+      propertyPath: m_Name
+      value: Light2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7386947361560808104, guid: 1b8350717c767c64bb93b7622b161d04,
         type: 3}
@@ -4718,14 +4781,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (22)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -4769,6 +4824,14 @@ PrefabInstance:
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
@@ -4864,11 +4927,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2126103739009182202}
     m_Modifications:
-    - target: {fileID: 8047646638772717937, guid: a172ef6f296c3c541af9ae84604f367b,
-        type: 3}
-      propertyPath: m_Name
-      value: SampleMachine
-      objectReference: {fileID: 0}
     - target: {fileID: 2781675632207429518, guid: a172ef6f296c3c541af9ae84604f367b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4924,6 +4982,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8047646638772717937, guid: a172ef6f296c3c541af9ae84604f367b,
+        type: 3}
+      propertyPath: m_Name
+      value: SampleMachine
+      objectReference: {fileID: 0}
     - target: {fileID: 7890968924982848119, guid: a172ef6f296c3c541af9ae84604f367b,
         type: 3}
       propertyPath: m_Mesh
@@ -4949,14 +5012,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3060107888863761037}
     m_Modifications:
-    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
-      propertyPath: m_Name
-      value: Hale_Pillar_01_snaps002 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4445029852578898, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12
@@ -5013,6 +5068,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.6
       objectReference: {fileID: 0}
+    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
+      propertyPath: m_Name
+      value: Hale_Pillar_01_snaps002 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 23316680945134572, guid: 5c63759061fbf4e40a5d66743b0d9fa0,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5033,16 +5096,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3501384932208553874}
     m_Modifications:
-    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
-        type: 3}
-      propertyPath: m_Name
-      value: Light2 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 5683560221338930280, guid: 1b8350717c767c64bb93b7622b161d04,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5098,6 +5151,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
+        type: 3}
+      propertyPath: m_Name
+      value: Light2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 7386947361560808104, guid: 1b8350717c767c64bb93b7622b161d04,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5133,14 +5196,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8347341800719133840}
     m_Modifications:
-    - target: {fileID: 1363002961666964, guid: 8c39b59b8609eeb41846d53ddd3ce2a8, type: 3}
-      propertyPath: m_Name
-      value: Pipe_S_snaps002 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1363002961666964, guid: 8c39b59b8609eeb41846d53ddd3ce2a8, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4519548827744782, guid: 8c39b59b8609eeb41846d53ddd3ce2a8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5
@@ -5188,6 +5243,14 @@ PrefabInstance:
     - target: {fileID: 4519548827744782, guid: 8c39b59b8609eeb41846d53ddd3ce2a8, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1363002961666964, guid: 8c39b59b8609eeb41846d53ddd3ce2a8, type: 3}
+      propertyPath: m_Name
+      value: Pipe_S_snaps002 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1363002961666964, guid: 8c39b59b8609eeb41846d53ddd3ce2a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c39b59b8609eeb41846d53ddd3ce2a8, type: 3}
@@ -5338,14 +5401,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3
@@ -5389,6 +5444,14 @@ PrefabInstance:
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
@@ -5472,14 +5535,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3060107888863761037}
     m_Modifications:
-    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
-      propertyPath: m_Name
-      value: Hale_Pillar_01_snaps002 (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4445029852578898, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12
@@ -5535,6 +5590,14 @@ PrefabInstance:
     - target: {fileID: 4445029852578898, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
+      propertyPath: m_Name
+      value: Hale_Pillar_01_snaps002 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 23316680945134572, guid: 5c63759061fbf4e40a5d66743b0d9fa0,
         type: 3}
@@ -5623,14 +5686,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12
@@ -5674,6 +5729,14 @@ PrefabInstance:
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
@@ -5970,14 +6033,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12
@@ -6022,6 +6077,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
 --- !u!4 &4668638858895084971 stripped
@@ -6037,14 +6100,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12
@@ -6089,6 +6144,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
 --- !u!4 &4933377313419439833 stripped
@@ -6104,14 +6167,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (21)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -6155,6 +6210,14 @@ PrefabInstance:
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
@@ -6451,16 +6514,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3501384932208553874}
     m_Modifications:
-    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
-        type: 3}
-      propertyPath: m_Name
-      value: Light2 (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 5683560221338930280, guid: 1b8350717c767c64bb93b7622b161d04,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6516,6 +6569,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
+        type: 3}
+      propertyPath: m_Name
+      value: Light2 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4067062251464188510, guid: 1b8350717c767c64bb93b7622b161d04,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6561,16 +6624,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8413221935270217994}
     m_Modifications:
-    - target: {fileID: 1399047202009104672, guid: 36a828bd1fea48748abf1ada13803c0e,
-        type: 3}
-      propertyPath: m_Name
-      value: PeriodicTable
-      objectReference: {fileID: 0}
-    - target: {fileID: 1399047202009104672, guid: 36a828bd1fea48748abf1ada13803c0e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 8334529100926459807, guid: 36a828bd1fea48748abf1ada13803c0e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6625,6 +6678,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399047202009104672, guid: 36a828bd1fea48748abf1ada13803c0e,
+        type: 3}
+      propertyPath: m_Name
+      value: PeriodicTable
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399047202009104672, guid: 36a828bd1fea48748abf1ada13803c0e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36a828bd1fea48748abf1ada13803c0e, type: 3}
@@ -6708,16 +6771,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8886253540163904190}
     m_Modifications:
-    - target: {fileID: 7323334465483233464, guid: 6b5ec290cc1d3e1449a12b264b45b4c6,
-        type: 3}
-      propertyPath: m_Name
-      value: ScientistMale1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7323334465483233464, guid: 6b5ec290cc1d3e1449a12b264b45b4c6,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6051408798832536235, guid: 6b5ec290cc1d3e1449a12b264b45b4c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6772,6 +6825,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7323334465483233464, guid: 6b5ec290cc1d3e1449a12b264b45b4c6,
+        type: 3}
+      propertyPath: m_Name
+      value: ScientistMale1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7323334465483233464, guid: 6b5ec290cc1d3e1449a12b264b45b4c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5841882032455816979, guid: 6b5ec290cc1d3e1449a12b264b45b4c6,
         type: 3}
@@ -7268,14 +7331,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (16)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3
@@ -7319,6 +7374,14 @@ PrefabInstance:
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
@@ -7469,14 +7532,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3060107888863761037}
     m_Modifications:
-    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
-      propertyPath: m_Name
-      value: Hale_Pillar_01_snaps002 (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4445029852578898, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24
@@ -7532,6 +7587,14 @@ PrefabInstance:
     - target: {fileID: 4445029852578898, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
+      propertyPath: m_Name
+      value: Hale_Pillar_01_snaps002 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 23316680945134572, guid: 5c63759061fbf4e40a5d66743b0d9fa0,
         type: 3}
@@ -7620,16 +7683,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3501384932208553874}
     m_Modifications:
-    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
-        type: 3}
-      propertyPath: m_Name
-      value: Light2 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 5683560221338930280, guid: 1b8350717c767c64bb93b7622b161d04,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7684,6 +7737,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
+        type: 3}
+      propertyPath: m_Name
+      value: Light2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7386947361560808104, guid: 1b8350717c767c64bb93b7622b161d04,
         type: 3}
@@ -8055,16 +8118,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3501384932208553874}
     m_Modifications:
-    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
-        type: 3}
-      propertyPath: m_Name
-      value: Light2 (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 5683560221338930280, guid: 1b8350717c767c64bb93b7622b161d04,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8119,6 +8172,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
+        type: 3}
+      propertyPath: m_Name
+      value: Light2 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4067062251464188510, guid: 1b8350717c767c64bb93b7622b161d04,
         type: 3}
@@ -8232,11 +8295,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2126103739009182202}
     m_Modifications:
-    - target: {fileID: 3571422085470585780, guid: 937b084c87fb19e43b5d8df2fe265890,
-        type: 3}
-      propertyPath: m_Name
-      value: MoleculeMachine
-      objectReference: {fileID: 0}
     - target: {fileID: 6994644997300689035, guid: 937b084c87fb19e43b5d8df2fe265890,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8291,6 +8349,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3571422085470585780, guid: 937b084c87fb19e43b5d8df2fe265890,
+        type: 3}
+      propertyPath: m_Name
+      value: MoleculeMachine
       objectReference: {fileID: 0}
     - target: {fileID: 8689793166142064046, guid: 937b084c87fb19e43b5d8df2fe265890,
         type: 3}
@@ -8853,14 +8916,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1576137913395344, guid: ccb41a28547b4a74d8c0ec4556b9ecdf, type: 3}
-      propertyPath: m_Name
-      value: Deck_WallWindowFrame_02_snaps002 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1576137913395344, guid: ccb41a28547b4a74d8c0ec4556b9ecdf, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4789992241082974, guid: ccb41a28547b4a74d8c0ec4556b9ecdf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -8904,6 +8959,14 @@ PrefabInstance:
     - target: {fileID: 4789992241082974, guid: ccb41a28547b4a74d8c0ec4556b9ecdf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1576137913395344, guid: ccb41a28547b4a74d8c0ec4556b9ecdf, type: 3}
+      propertyPath: m_Name
+      value: Deck_WallWindowFrame_02_snaps002 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1576137913395344, guid: ccb41a28547b4a74d8c0ec4556b9ecdf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccb41a28547b4a74d8c0ec4556b9ecdf, type: 3}
@@ -8987,14 +9050,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8347341800719133840}
     m_Modifications:
-    - target: {fileID: 1363002961666964, guid: 8c39b59b8609eeb41846d53ddd3ce2a8, type: 3}
-      propertyPath: m_Name
-      value: Pipe_S_snaps002 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1363002961666964, guid: 8c39b59b8609eeb41846d53ddd3ce2a8, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4519548827744782, guid: 8c39b59b8609eeb41846d53ddd3ce2a8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5
@@ -9042,6 +9097,14 @@ PrefabInstance:
     - target: {fileID: 4519548827744782, guid: 8c39b59b8609eeb41846d53ddd3ce2a8, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1363002961666964, guid: 8c39b59b8609eeb41846d53ddd3ce2a8, type: 3}
+      propertyPath: m_Name
+      value: Pipe_S_snaps002 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1363002961666964, guid: 8c39b59b8609eeb41846d53ddd3ce2a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c39b59b8609eeb41846d53ddd3ce2a8, type: 3}
@@ -9125,14 +9188,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8347341800719133840}
     m_Modifications:
-    - target: {fileID: 1888436741492280, guid: cd0f18d8f0c53a14ab401ebd0214a4e2, type: 3}
-      propertyPath: m_Name
-      value: PowerCore_01_snaps002 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1888436741492280, guid: cd0f18d8f0c53a14ab401ebd0214a4e2, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4673221661428388, guid: cd0f18d8f0c53a14ab401ebd0214a4e2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5
@@ -9176,6 +9231,14 @@ PrefabInstance:
     - target: {fileID: 4673221661428388, guid: cd0f18d8f0c53a14ab401ebd0214a4e2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1888436741492280, guid: cd0f18d8f0c53a14ab401ebd0214a4e2, type: 3}
+      propertyPath: m_Name
+      value: PowerCore_01_snaps002 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1888436741492280, guid: cd0f18d8f0c53a14ab401ebd0214a4e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd0f18d8f0c53a14ab401ebd0214a4e2, type: 3}
@@ -9334,14 +9397,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3060107888863761037}
     m_Modifications:
-    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
-      propertyPath: m_Name
-      value: Hale_Pillar_01_snaps002 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4445029852578898, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -9397,6 +9452,14 @@ PrefabInstance:
     - target: {fileID: 4445029852578898, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
+      propertyPath: m_Name
+      value: Hale_Pillar_01_snaps002 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 23316680945134572, guid: 5c63759061fbf4e40a5d66743b0d9fa0,
         type: 3}
@@ -9485,16 +9548,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8886253540163904190}
     m_Modifications:
-    - target: {fileID: 3304741059069327946, guid: 87b2b3cf147647d488423bcdefb184e3,
-        type: 3}
-      propertyPath: m_Name
-      value: ScientistFemale1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3304741059069327946, guid: 87b2b3cf147647d488423bcdefb184e3,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 1983718688392431705, guid: 87b2b3cf147647d488423bcdefb184e3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9549,6 +9602,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3304741059069327946, guid: 87b2b3cf147647d488423bcdefb184e3,
+        type: 3}
+      propertyPath: m_Name
+      value: ScientistFemale1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3304741059069327946, guid: 87b2b3cf147647d488423bcdefb184e3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8614576232222113407, guid: 87b2b3cf147647d488423bcdefb184e3,
         type: 3}
@@ -10117,14 +10180,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -10169,6 +10224,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
 --- !u!4 &8599289139030481483 stripped
@@ -10184,14 +10247,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -10236,6 +10291,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
 --- !u!4 &8624627019894699873 stripped
@@ -10251,14 +10314,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -10303,6 +10358,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
 --- !u!4 &8666810749716371568 stripped
@@ -10318,14 +10381,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3060107888863761037}
     m_Modifications:
-    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
-      propertyPath: m_Name
-      value: Hale_Pillar_01_snaps002 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4445029852578898, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -10382,6 +10437,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.6
       objectReference: {fileID: 0}
+    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
+      propertyPath: m_Name
+      value: Hale_Pillar_01_snaps002 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1842503064716098, guid: 5c63759061fbf4e40a5d66743b0d9fa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 23316680945134572, guid: 5c63759061fbf4e40a5d66743b0d9fa0,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -10402,16 +10465,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3501384932208553874}
     m_Modifications:
-    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
-        type: 3}
-      propertyPath: m_Name
-      value: Light2 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 5683560221338930280, guid: 1b8350717c767c64bb93b7622b161d04,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10466,6 +10519,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
+        type: 3}
+      propertyPath: m_Name
+      value: Light2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201258630346013515, guid: 1b8350717c767c64bb93b7622b161d04,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7386947361560808104, guid: 1b8350717c767c64bb93b7622b161d04,
         type: 3}
@@ -10782,14 +10845,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9
@@ -10834,6 +10889,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
 --- !u!4 &8868812656712013025 stripped
@@ -10849,14 +10912,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6
@@ -10901,6 +10956,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
 --- !u!4 &8929161333556587268 stripped
@@ -10916,14 +10979,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2852039095718522733}
     m_Modifications:
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_Name
-      value: Deck_Wall_snaps002 (18)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -10967,6 +11022,14 @@ PrefabInstance:
     - target: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_Name
+      value: Deck_Wall_snaps002 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267026324182608, guid: 00debf980412c49418327c56a1a60db0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00debf980412c49418327c56a1a60db0, type: 3}
