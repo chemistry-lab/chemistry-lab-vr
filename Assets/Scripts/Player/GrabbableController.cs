@@ -52,33 +52,18 @@ namespace Player
 
         public void OnInputUp(InputEventData eventData)
         {
-            if (eventData.MixedRealityInputAction != action || eventData.Handedness != handedness)
-            {
-                return;
-            }
+            if (eventData.MixedRealityInputAction != action || eventData.Handedness != handedness) return;
 
-            if (!currentGrabbable.IsEquippable)
-            {
-                Drop();
-            }
+            if (!currentGrabbable.IsEquippable) Drop();
         }
 
         public void OnInputDown(InputEventData eventData)
         {
-            if (eventData.MixedRealityInputAction != action || eventData.Handedness != handedness)
-            {
-                return;
-            }
+            if (eventData.MixedRealityInputAction != action || eventData.Handedness != handedness) return;
 
             // Check if there is a grabbable equiped
-            if (currentGrabbable != null && currentGrabbable.IsEquippable)
-            {
-                Drop();
-            }
-            else
-            {
-                Pickup();
-            }
+            if (currentGrabbable != null && currentGrabbable.IsEquippable) Drop();
+            else Pickup();
         }
 
         public void Pickup()
@@ -112,8 +97,7 @@ namespace Player
                 Vector3 angularVelocity = pose.Controller.AngularVelocity;
                 currentGrabbable.OnDrop(velocity, angularVelocity);
             }
-            
-            
+
             currentGrabbable.OnDrop();
             joint.connectedBody = null;
             currentGrabbable.ActiveController = null;

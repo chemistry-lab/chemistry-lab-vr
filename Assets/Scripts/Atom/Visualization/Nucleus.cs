@@ -68,11 +68,11 @@ namespace Atom.Visualization
             {
                 neutron.SetActive((false));
             }
+
             foreach (GameObject proton in protons)
             {
                 proton.SetActive((false));
             }
-            
         }
     }
 }
