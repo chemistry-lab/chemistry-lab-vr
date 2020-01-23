@@ -2996,6 +2996,96 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1734742937978490790, guid: e7586b190436f8948ada644deb538cb0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734742937978490790, guid: e7586b190436f8948ada644deb538cb0,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734742937978490790, guid: e7586b190436f8948ada644deb538cb0,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843082612811040764, guid: e7586b190436f8948ada644deb538cb0,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843082612811040764, guid: e7586b190436f8948ada644deb538cb0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296673452717258179, guid: e7586b190436f8948ada644deb538cb0,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296673452717258179, guid: e7586b190436f8948ada644deb538cb0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539171925844969373, guid: e7586b190436f8948ada644deb538cb0,
+        type: 3}
+      propertyPath: m_text
+      value: Stop 3 plastic flessen in de plastic invoer en stop 1 CH4 molecuul in
+        voor het opwarmen van de flessen om diesel te maken
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539171925844969373, guid: e7586b190436f8948ada644deb538cb0,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 121
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539171925844969373, guid: e7586b190436f8948ada644deb538cb0,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539171925844969373, guid: e7586b190436f8948ada644deb538cb0,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539171925844969373, guid: e7586b190436f8948ada644deb538cb0,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539171925844969373, guid: e7586b190436f8948ada644deb538cb0,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 103
+      objectReference: {fileID: 0}
+    - target: {fileID: 3415764331367087976, guid: e7586b190436f8948ada644deb538cb0,
+        type: 3}
+      propertyPath: m_text
+      value: 'Methaan
+
+        Invoer'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3415764331367087976, guid: e7586b190436f8948ada644deb538cb0,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6165774203904419495, guid: e7586b190436f8948ada644deb538cb0,
+        type: 3}
+      propertyPath: m_text
+      value: 'Plastic
+
+        Invoer'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6165774203904419495, guid: e7586b190436f8948ada644deb538cb0,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7586b190436f8948ada644deb538cb0, type: 3}
 --- !u!4 &5250345461513783451 stripped
