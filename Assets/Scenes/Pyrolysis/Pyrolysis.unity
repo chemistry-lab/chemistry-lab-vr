@@ -687,6 +687,31 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8316225323167394416, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 610525505988047893, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8762823267466930976, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2645447474451202723, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003123564987466096, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2784381072464255239, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -722,30 +747,35 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8316225323167394416, guid: 1f454aa84b7c83b42afda2ab24451d23,
+    - target: {fileID: 3161319933787424166, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
-      propertyPath: m_Mesh
-      value: 
+      propertyPath: inspStateFoldoutHeads
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 610525505988047893, guid: 1f454aa84b7c83b42afda2ab24451d23,
+    - target: {fileID: 3161319933787424166, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
-      propertyPath: m_Mesh
-      value: 
+      propertyPath: inspStateFoldoutReferences
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8762823267466930976, guid: 1f454aa84b7c83b42afda2ab24451d23,
+    - target: {fileID: 6481499163785106175, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
-      propertyPath: m_Mesh
-      value: 
+      propertyPath: inspStateFoldoutProcessing
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2645447474451202723, guid: 1f454aa84b7c83b42afda2ab24451d23,
+    - target: {fileID: 6481499163785106175, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
-      propertyPath: m_Mesh
-      value: 
+      propertyPath: useRandomEmotes
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4003123564987466096, guid: 1f454aa84b7c83b42afda2ab24451d23,
+    - target: {fileID: 6481499163785106175, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
-      propertyPath: m_Mesh
-      value: 
+      propertyPath: inspStateFoldoutSettings
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6481499163785106160, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: inspStateFoldoutReferences
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f454aa84b7c83b42afda2ab24451d23, type: 3}
