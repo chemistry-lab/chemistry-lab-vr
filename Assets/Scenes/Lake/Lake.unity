@@ -184,13 +184,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Het kan zijn dat zure regen het meer heeft betast.
+  m_text: 'Het kan zijn dat zure regen het meer heeft aangetast.
 
 
     Om deze hypothese te onderzoeken kun je een pH test uitvoeren.
 
 
-    Pak een maatkolf en haal een monster uit het meer. Doe de monster in de pH  meter
+    Pak een maatkolf en haal een monster uit het meer. Doe het monster in de pH  meter
     machine links van je.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
