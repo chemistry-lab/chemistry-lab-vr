@@ -1647,27 +1647,34 @@ PrefabInstance:
     - target: {fileID: 8724940578295354767, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 8724940578295354767, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8724940578295354767, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8724940578295354767, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8724940578295354767, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724940578295354767, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: m_text
+      value: 'Plaats een monster om de pH waarde te meten.
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 8080690615395611798, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
@@ -1844,11 +1851,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.772
       objectReference: {fileID: 0}
-    - target: {fileID: 4152731647225204377, guid: 1f454aa84b7c83b42afda2ab24451d23,
-        type: 3}
-      propertyPath: destroyTimeout
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3161319933787424166, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
       propertyPath: inspStateFoldoutReferences
@@ -1967,6 +1969,11 @@ PrefabInstance:
     - target: {fileID: 2048232651771400442, guid: 1f454aa84b7c83b42afda2ab24451d23,
         type: 3}
       propertyPath: atomBuilder
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003123564987466096, guid: 1f454aa84b7c83b42afda2ab24451d23,
+        type: 3}
+      propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -6998,7 +7005,6 @@ Transform:
   - {fileID: 140472672}
   - {fileID: 235786990}
   - {fileID: 1290241171535760340}
-  - {fileID: 2071992260}
   m_Father: {fileID: 39315329}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7939,8 +7945,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f7fa83ca698dbd4f887019604d7ac46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: De PH waarde van het monster is laag, maak een base om de PH weer neutraal
-    te krijgen.
+  description: 'pH Waarde: 4.3 - Te zuur! Neutraliseer met hydroxide (OH-)'
   material: {fileID: 2100000, guid: ba60b68f4c518be4ebe24dcb43b8b719, type: 2}
 --- !u!65 &1661396127
 BoxCollider:
@@ -8506,169 +8511,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!1001 &2071992259
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1220703322}
-    m_Modifications:
-    - target: {fileID: 6453992562761260732, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_Name
-      value: Sign (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -30.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.526
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 30.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 935271761305157811, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_text
-      value: Gebruik de maatkolf om een monster uit het meer te nemen. Zet het monster
-        in de machine om deze te bestuderen.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 110
-      objectReference: {fileID: 0}
-    - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_firstOverflowCharacterIndex
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5318616650330772580, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_Text
-      value: "2. Pak de maatbeker en neem \nhet mee naar het meer om \neen monster
-        te pakken van \nhet meer. \n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 5318616650330772580, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_FontSize
-      value: 125
-      objectReference: {fileID: 0}
-    - target: {fileID: 896223993129785177, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_text
-      value: "Gebruik de maatkolf om \neen monster uit het meer\nte halen. Zet het
-        monster in de machine om deze te bestuderen."
-      objectReference: {fileID: 0}
-    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 111
-      objectReference: {fileID: 0}
-    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 1211357604689773069, guid: b2d62458279215243a9bc63ff8d65643,
-        type: 3}
-      propertyPath: m_textAlignment
-      value: 514
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b2d62458279215243a9bc63ff8d65643, type: 3}
---- !u!4 &2071992260 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8174088771688972041, guid: b2d62458279215243a9bc63ff8d65643,
-    type: 3}
-  m_PrefabInstance: {fileID: 2071992259}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1290241171535760339
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8744,36 +8586,39 @@ PrefabInstance:
     - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
       propertyPath: m_text
-      value: 'We hebben je hulp nodig!
-
-        Het meer is vervuild geraakt.
-
-        Ga naar het lab en pak de maatkolf.'
+      value: "We hebben je hulp nodig!\r\nHet meer is vervuild geraakt.\r\nHet lab
+        ligt recht voor je.\r\nDaar kun je vast een manier vinden om het meer schoon
+        te maken."
       objectReference: {fileID: 0}
     - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 90
+      value: 149
       objectReference: {fileID: 0}
     - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 17
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 18
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7608855625058933176, guid: b2d62458279215243a9bc63ff8d65643,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 107
       objectReference: {fileID: 0}
     - target: {fileID: 5318616650330772580, guid: b2d62458279215243a9bc63ff8d65643,
         type: 3}
