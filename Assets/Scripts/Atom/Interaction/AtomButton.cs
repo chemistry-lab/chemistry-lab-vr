@@ -15,11 +15,16 @@ namespace Atom
         [SerializeField] private Renderer button = null;
         [Range(0f, 0.1f)]
         [SerializeField] private float thickness = 0.025f;
+        
+        [Header("Audio")] 
+        [SerializeField] private AudioSource audioSource = null;
+        [SerializeField] private AudioClip audioClip = null;
 
         private void OnTriggerEnter(Collider other)
         {
             builder.ResetAtom();
             button.material.SetFloat("_OutlineWidth", thickness);
+            audioSource.PlayOneShot(audioClip);
         }
 
         private void OnTriggerExit(Collider other)
