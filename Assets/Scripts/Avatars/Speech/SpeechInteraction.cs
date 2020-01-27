@@ -67,10 +67,12 @@ namespace Avatars.Speech
             {
                 if (isPressingAction) StartListening();
                 else StopListening();
+                
                 SetMaterial();
             }
 
-            if (inProximity && playerTransform) transform.LookAt(new Vector3(playerTransform.position.x, transform.position.y, playerTransform.position.z));
+            if (inProximity && playerTransform)
+                transform.LookAt(new Vector3(playerTransform.position.x, transform.position.y, playerTransform.position.z));
         }
 
         private void OnTriggerEnter(Collider other)
@@ -116,6 +118,7 @@ namespace Avatars.Speech
             if (audio == null)
             {
                 isProcessingAudio = false;
+                
                 return;
             }
 
@@ -151,13 +154,17 @@ namespace Avatars.Speech
             if (isMicrophoneRecording)
             {
                 indicator.GetComponent<Renderer>().material = listeningMaterial;
+                
                 return;
             }
+            
             if (isProcessingAudio || source.isPlaying)
             {
                 indicator.GetComponent<Renderer>().material = busyMaterial;
+                
                 return;
             }
+            
             indicator.GetComponent<Renderer>().material = defaultMaterial;
         }
     }
