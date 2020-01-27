@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System;
 
 using UnityEngine.SceneManagement;
 using UnityEngine;
@@ -21,10 +20,6 @@ namespace Utilities
             panel = GetComponent<Renderer>();
 
             if (!panel) Debug.LogWarning("No Renderer Component Provided!");
-            if (new DateTime().CompareTo(new DateTime(2020, 3, 1)) <= 0)
-            {
-                Application.Quit();
-            }
         }
 
         private void Start()

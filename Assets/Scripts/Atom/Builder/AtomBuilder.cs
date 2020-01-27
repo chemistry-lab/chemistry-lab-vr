@@ -163,9 +163,6 @@ namespace Atom.Builder
 
             atomPreview.material.color = invalidColor;
             validationLight.material.SetColor("_EmissionColor", Color.red);
-            neutronsLabel.text = $"Neutrons: 0";
-            protonsLabel.text = $"Protons: 0";
-            electronsLabel.text = $"Electrons: 0";
             current = null;
         }
     }
