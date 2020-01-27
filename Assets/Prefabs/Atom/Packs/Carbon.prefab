@@ -127,7 +127,7 @@ MonoBehaviour:
   protons: 6
   neutrons: 6
   electrons: 6
-  atomName: Carbon
+  atomName: Koolstof
 --- !u!114 &8978163647191773448
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -127,7 +127,7 @@ MonoBehaviour:
   protons: 1
   neutrons: 1
   electrons: 1
-  atomName: Hydrogen
+  atomName: Hydrogeen
 --- !u!114 &847832145148048046
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -127,7 +127,7 @@ MonoBehaviour:
   protons: 8
   neutrons: 8
   electrons: 8
-  atomName: Oxygen
+  atomName: Zuurstof
 --- !u!114 &2318231455878991763
 MonoBehaviour:
   m_ObjectHideFlags: 0
