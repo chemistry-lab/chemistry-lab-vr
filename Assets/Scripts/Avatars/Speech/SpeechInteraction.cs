@@ -34,6 +34,8 @@ namespace Avatars.Speech
         private int minimumFrequency = 0;
         private int maximumFrequency = 0;
 
+        private Transform playerTransform;
+
         private void Awake()
         {
             source = GetComponent<AudioSource>();
@@ -68,12 +70,17 @@ namespace Avatars.Speech
                 SetMaterial();
             }
 
+            if (inProximity && playerTransform)
+            {
+                transform.LookAt(playerTransform);
+            }
         }
 
         private void OnTriggerEnter(Collider other)
         {
             if (other.tag == "Player")
             {
+                playerTransform = other.transform;
                 inProximity = true;
                 indicator.SetActive(true);
             }
@@ -83,6 +90,7 @@ namespace Avatars.Speech
         {
             if (other.tag == "Player")
             {
+                playerTransform = null;
                 inProximity = false;
                 indicator.SetActive(false);
             }
