@@ -52,7 +52,7 @@ namespace Player
 
         public void OnInputUp(InputEventData eventData)
         {
-            if (eventData.MixedRealityInputAction != action || eventData.Handedness != handedness) return;
+            if (eventData.MixedRealityInputAction != action || eventData.Handedness != handedness || currentGrabbable == null) return;
 
             if (currentGrabbable != null && currentGrabbable.IsEquippable) Drop();
         }
