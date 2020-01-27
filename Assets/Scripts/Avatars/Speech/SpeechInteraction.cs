@@ -34,7 +34,7 @@ namespace Avatars.Speech
         private int minimumFrequency = 0;
         private int maximumFrequency = 0;
 
-        private Transform playerTransform;
+        private Transform playerTransform = null;
 
         private void Awake()
         {
@@ -70,7 +70,7 @@ namespace Avatars.Speech
                 SetMaterial();
             }
 
-            if (inProximity && playerTransform) transform.LookAt(playerTransform);
+            if (inProximity && playerTransform) transform.LookAt(new Vector3(playerTransform.position.x, transform.position.y, playerTransform.position.z));
         }
 
         private void OnTriggerEnter(Collider other)
