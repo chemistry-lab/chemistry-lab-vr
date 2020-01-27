@@ -5702,6 +5702,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7722295421273422747, guid: e7586b190436f8948ada644deb538cb0,
+        type: 3}
+      propertyPath: pointLight
+      value: 
+      objectReference: {fileID: 5250345461513783453}
     - target: {fileID: 8285997699004970990, guid: e7586b190436f8948ada644deb538cb0,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -5757,6 +5762,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4442587355771880205, guid: e7586b190436f8948ada644deb538cb0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.22
+      objectReference: {fileID: 0}
     - target: {fileID: 4359795637240379687, guid: e7586b190436f8948ada644deb538cb0,
         type: 3}
       propertyPath: m_Intensity
@@ -5773,6 +5783,12 @@ Transform:
 --- !u!4 &5250345461513783452 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7723015221500118579, guid: e7586b190436f8948ada644deb538cb0,
+    type: 3}
+  m_PrefabInstance: {fileID: 5250345461513783450}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &5250345461513783453 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 4359795637240379687, guid: e7586b190436f8948ada644deb538cb0,
     type: 3}
   m_PrefabInstance: {fileID: 5250345461513783450}
   m_PrefabAsset: {fileID: 0}
