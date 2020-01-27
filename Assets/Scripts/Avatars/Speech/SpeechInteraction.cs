@@ -34,6 +34,8 @@ namespace Avatars.Speech
         private int minimumFrequency = 0;
         private int maximumFrequency = 0;
 
+        private Transform playerTransform = null;
+
         private void Awake()
         {
             source = GetComponent<AudioSource>();
@@ -65,15 +67,19 @@ namespace Avatars.Speech
             {
                 if (isPressingAction) StartListening();
                 else StopListening();
+                
                 SetMaterial();
             }
 
+            if (inProximity && playerTransform)
+                transform.LookAt(new Vector3(playerTransform.position.x, transform.position.y, playerTransform.position.z));
         }
 
         private void OnTriggerEnter(Collider other)
         {
             if (other.tag == "Player")
             {
+                playerTransform = other.transform;
                 inProximity = true;
                 indicator.SetActive(true);
             }
@@ -83,6 +89,7 @@ namespace Avatars.Speech
         {
             if (other.tag == "Player")
             {
+                playerTransform = null;
                 inProximity = false;
                 indicator.SetActive(false);
             }
@@ -111,6 +118,7 @@ namespace Avatars.Speech
             if (audio == null)
             {
                 isProcessingAudio = false;
+                
                 return;
             }
 
@@ -146,13 +154,17 @@ namespace Avatars.Speech
             if (isMicrophoneRecording)
             {
                 indicator.GetComponent<Renderer>().material = listeningMaterial;
+                
                 return;
             }
+            
             if (isProcessingAudio || source.isPlaying)
             {
                 indicator.GetComponent<Renderer>().material = busyMaterial;
+                
                 return;
             }
+            
             indicator.GetComponent<Renderer>().material = defaultMaterial;
         }
     }
