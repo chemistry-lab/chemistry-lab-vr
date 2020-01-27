@@ -5120,10 +5120,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Je hebt 3 flessen plastic verspreid op de grond, Methaan (CH4) en Zuurstof
+  m_text: 'Er liggen flessen plastic verspreid in de omgeving. Methaan (CH4) en Zuurstof
     (O2). Methaan en zuurstof worden samen gebruikt in een verbranding reactie om
-    energie aan de reactie te geven. Methaan moet je in het lab produceren. O2 wordt
-    aan de machine gevoerd via een gasleiding.
+    pyrolise te laten gebeuren. Methaan moet je in het lab achter je produceren. O2
+    wordt aan de pyrolise machine gevoerd via een gasleiding.
+
+
+    Succes:)
 
 '
   m_isRightToLeft: 0
@@ -5170,7 +5173,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 161
+  m_firstOverflowCharacterIndex: 165
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -5194,12 +5197,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1820795261}
-    characterCount: 277
+    characterCount: 304
     spriteCount: 0
-    spaceCount: 47
-    wordCount: 47
+    spaceCount: 49
+    wordCount: 48
     linkCount: 0
-    lineCount: 11
+    lineCount: 13
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
