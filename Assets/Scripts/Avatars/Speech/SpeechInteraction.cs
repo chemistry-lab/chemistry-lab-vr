@@ -70,10 +70,7 @@ namespace Avatars.Speech
                 SetMaterial();
             }
 
-            if (inProximity && playerTransform)
-            {
-                transform.LookAt(playerTransform);
-            }
+            if (inProximity && playerTransform) transform.LookAt(playerTransform);
         }
 
         private void OnTriggerEnter(Collider other)
