@@ -74,7 +74,7 @@ namespace DialogFlow
             InputAudioConfig inputAudioConfig = new InputAudioConfig();
             inputAudioConfig.audioEncoding = InputAudioEncoding.Linear16;
             inputAudioConfig.sampleRateHertz = 16000;
-            inputAudioConfig.languageCode = "nl-NL";
+            inputAudioConfig.languageCode = "en-US";
 
             VoiceConfig voiceConfig = new VoiceConfig();
             voiceConfig.ssmlGender = gender;
