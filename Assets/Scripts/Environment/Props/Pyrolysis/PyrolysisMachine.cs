@@ -64,14 +64,6 @@ namespace Environment.Props.Pyrolysis
         public void CreateJerrycan()
         {
             Instantiate(jerrycan, spawnPoint.position, Quaternion.identity);
-            Reset();
-        }
-
-        public void Reset()
-        {
-            plasticCount = 0;
-            methaneCount = 0;
-            pointLight.color = Color.red;
         }
     }
 }
