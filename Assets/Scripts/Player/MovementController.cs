@@ -32,7 +32,7 @@ namespace Player
             if (!controller) Debug.LogWarning("No CharacterController Component Provided!");
         }
 
-        private void Update()
+        private void FixedUpdate()
         {
             HandleHeight();
             CalculateMovement();
