@@ -1,5 +1,6 @@
 ﻿using TMPro;
 using UnityEngine;
+using UnityEngine.Experimental.GlobalIllumination;
 
 namespace Environment.Props.Pyrolysis
 {
@@ -18,6 +19,8 @@ namespace Environment.Props.Pyrolysis
         private int plasticCount = 0;
         private int methaneCount = 0;
 
+        [Header("Light")] [SerializeField] private Light pointLight = null;
+
         public void AddPlastic()
         {
             plasticCount++;
@@ -27,11 +30,24 @@ namespace Environment.Props.Pyrolysis
                 CreateJerrycan();
             }
             UpdatePlasticText();
+            UpdateLight();
         }
 
         private void UpdatePlasticText()
         {
             amountOfPlasticText.text = $"Je hebt nog {amountOfPlastic - plasticCount} plastic fles(sen) nodig.";
+        }
+
+        private void UpdateLight()
+        {
+            if(plasticCount >= amountOfPlastic && methaneCount >= amountOfMethane)
+            {
+                pointLight.color = Color.green;
+            }
+            else
+            {
+                pointLight.color = Color.red;
+            }
         }
 
         public void AddMethane()
@@ -42,6 +58,7 @@ namespace Environment.Props.Pyrolysis
             {
                 CreateJerrycan();
             }
+            UpdateLight();
         }
 
         public void CreateJerrycan()
@@ -54,6 +71,7 @@ namespace Environment.Props.Pyrolysis
         {
             plasticCount = 0;
             methaneCount = 0;
+            pointLight.color = Color.red;
         }
     }
 }
