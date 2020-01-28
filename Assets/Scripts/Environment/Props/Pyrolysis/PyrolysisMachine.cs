@@ -1,5 +1,6 @@
 ﻿using TMPro;
 using UnityEngine;
+using UnityEngine.Experimental.GlobalIllumination;
 
 namespace Environment.Props.Pyrolysis
 {
@@ -7,7 +8,7 @@ namespace Environment.Props.Pyrolysis
     {
         [Header("Spawn")]
         [SerializeField] private Transform spawnPoint = null;
-        [SerializeField] private PyrolysisJerrycan jerrycan = null;
+        [SerializeField] private GameObject jerrycan = null;
 
         [Header("Requirements")]
         [SerializeField] private int amountOfPlastic = 3;
@@ -18,15 +19,18 @@ namespace Environment.Props.Pyrolysis
         private int plasticCount = 0;
         private int methaneCount = 0;
 
+        [Header("Light")] [SerializeField] private Light pointLight = null;
+
         public void AddPlastic()
         {
             plasticCount++;
 
-            if (plasticCount == amountOfPlastic && methaneCount == amountOfMethane)
+            if (plasticCount >= amountOfPlastic && methaneCount >= amountOfMethane)
             {
                 CreateJerrycan();
             }
             UpdatePlasticText();
+            UpdateLight();
         }
 
         private void UpdatePlasticText()
@@ -34,26 +38,32 @@ namespace Environment.Props.Pyrolysis
             amountOfPlasticText.text = $"Je hebt nog {amountOfPlastic - plasticCount} plastic fles(sen) nodig.";
         }
 
+        private void UpdateLight()
+        {
+            if(plasticCount >= amountOfPlastic && methaneCount >= amountOfMethane)
+            {
+                pointLight.color = Color.green;
+            }
+            else
+            {
+                pointLight.color = Color.red;
+            }
+        }
+
         public void AddMethane()
         {
             methaneCount++;
 
-            if (plasticCount == amountOfPlastic && methaneCount == amountOfMethane)
+            if (plasticCount >= amountOfPlastic && methaneCount >= amountOfMethane)
             {
                 CreateJerrycan();
             }
+            UpdateLight();
         }
 
         public void CreateJerrycan()
         {
-            Instantiate(jerrycan, spawnPoint.position, Quaternion.identity);
-            Reset();
-        }
-
-        public void Reset()
-        {
-            plasticCount = 0;
-            methaneCount = 0;
+            Instantiate(jerrycan, spawnPoint.position, jerrycan.transform.rotation);
         }
     }
 }
