@@ -127,7 +127,7 @@ MonoBehaviour:
   protons: 5
   neutrons: 5
   electrons: 5
-  atomName: Boron
+  atomName: Borium
 --- !u!114 &7245642232515138205
 MonoBehaviour:
   m_ObjectHideFlags: 0
