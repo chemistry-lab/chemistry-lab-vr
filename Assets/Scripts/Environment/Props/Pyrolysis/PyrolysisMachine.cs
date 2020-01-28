@@ -8,7 +8,7 @@ namespace Environment.Props.Pyrolysis
     {
         [Header("Spawn")]
         [SerializeField] private Transform spawnPoint = null;
-        [SerializeField] private PyrolysisJerrycan jerrycan = null;
+        [SerializeField] private GameObject jerrycan = null;
 
         [Header("Requirements")]
         [SerializeField] private int amountOfPlastic = 3;
@@ -25,7 +25,7 @@ namespace Environment.Props.Pyrolysis
         {
             plasticCount++;
 
-            if (plasticCount == amountOfPlastic && methaneCount == amountOfMethane)
+            if (plasticCount >= amountOfPlastic && methaneCount >= amountOfMethane)
             {
                 CreateJerrycan();
             }
@@ -54,7 +54,7 @@ namespace Environment.Props.Pyrolysis
         {
             methaneCount++;
 
-            if (plasticCount == amountOfPlastic && methaneCount == amountOfMethane)
+            if (plasticCount >= amountOfPlastic && methaneCount >= amountOfMethane)
             {
                 CreateJerrycan();
             }
@@ -63,6 +63,7 @@ namespace Environment.Props.Pyrolysis
 
         public void CreateJerrycan()
         {
+            Debug.Log("made jerry:)");
             Instantiate(jerrycan, spawnPoint.position, Quaternion.identity);
         }
     }
