@@ -63,7 +63,6 @@ namespace Environment.Props.Pyrolysis
 
         public void CreateJerrycan()
         {
-            Debug.Log("made jerry:)");
             Instantiate(jerrycan, spawnPoint.position, jerrycan.transform.rotation);
         }
     }
