@@ -127,7 +127,7 @@ MonoBehaviour:
   protons: 7
   neutrons: 7
   electrons: 7
-  atomName: Nitrogen
+  atomName: Stikstof
 --- !u!114 &8510728248198093825
 MonoBehaviour:
   m_ObjectHideFlags: 0
