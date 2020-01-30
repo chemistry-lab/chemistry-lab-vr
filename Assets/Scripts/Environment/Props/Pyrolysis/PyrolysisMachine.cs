@@ -14,8 +14,9 @@ namespace Environment.Props.Pyrolysis
         [SerializeField] private int amountOfPlastic = 3;
         [SerializeField] private int amountOfMethane = 1;
 
-        [Header("TextElements")] [SerializeField]
-        private TextMeshPro amountOfPlasticText;
+        [Header("Text")]
+        [SerializeField] private TextMeshPro amountOfPlasticText = null;
+
         private int plasticCount = 0;
         private int methaneCount = 0;
 
@@ -40,7 +41,7 @@ namespace Environment.Props.Pyrolysis
 
         private void UpdateLight()
         {
-            if(plasticCount >= amountOfPlastic && methaneCount >= amountOfMethane)
+            if (plasticCount >= amountOfPlastic && methaneCount >= amountOfMethane)
             {
                 pointLight.color = Color.green;
             }
