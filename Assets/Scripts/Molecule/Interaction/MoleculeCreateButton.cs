@@ -7,7 +7,7 @@ using Molecule.Builder;
 namespace Molecule.Interaction
 {
     [RequireComponent(typeof(Collider))]
-    public class MoleculeButton : MonoBehaviour
+    public class MoleculeCreateButton : MonoBehaviour
     {
         [Header("Build")]
         [SerializeField] private MoleculeBuilder builder = null;
@@ -17,7 +17,7 @@ namespace Molecule.Interaction
         [Range(0f, 0.1f)]
         [SerializeField] private float thickness = 0.025f;
 
-        [Header("Audio")] 
+        [Header("Audio")]
         [SerializeField] private AudioSource audioSource = null;
         [SerializeField] private AudioClip audioClip = null;
 
